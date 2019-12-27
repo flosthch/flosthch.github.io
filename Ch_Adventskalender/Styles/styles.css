@@ -1,0 +1,33 @@
+body{
+
+  background-image: url('../Ch_bilder/snow.gif');
+  background-repeat: repeat;
+  background-position: center;
+  background-position: top;
+}
+
+.button1{
+  background-image: url('../Ch_bilder/ch.JPG');
+  padding: 50px 50px;
+  font-size: 50px;
+  color: white;
+}
+
+
+.text{
+  color: blue;
+  font-size: 50px;
+}
+
+/*head{
+  color: blue;
+  size: 50px;
+}*/
+
+
+/*head{
+  background-image: url('../Ch_bilder/snow.gif');
+  background-repeat: repeat;
+
+
+}*/
