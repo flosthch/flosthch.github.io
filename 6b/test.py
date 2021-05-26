@@ -1,6 +1,4 @@
 from tkinter import *
-#from turtle import pos
-from time import sleep, time
 
 HEIGHT = 1000
 WIDTH = 1600
