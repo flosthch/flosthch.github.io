@@ -1,4 +1,5 @@
 from tkinter import *
+from time import sleep
 
 HEIGHT = 1000
 WIDTH = 1600
