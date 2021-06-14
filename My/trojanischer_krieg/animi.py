@@ -170,7 +170,7 @@ def move(event):
 
     id = m
     left = "k"
-    right = ";"
+    right = "p"
     up = "o"
     down = "l"
     if event.keysym == str(up):
