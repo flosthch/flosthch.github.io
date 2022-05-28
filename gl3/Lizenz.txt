@@ -1,0 +1,206 @@
+--------------------------------------------------------------------------------
+Lizenz.txt                 - Software-Lizenzvertrag -                      1.5.3 
+--------------------------------------------------------------------------------
+
+Dieser Lizenzvertrag gilt ergaenzend zu den jeweils geltenden Allgemeinen 
+Geschaeftsbedingungen der Ernst Klett Verlag GmbH, Rotebuehlstrasse 77, 70178 
+Stuttgart. Widersprechen sich Bestimmungen dieses Lizenzvertrages und AGBs, so 
+haben die Bestimmungen dieses Lizenzvertrages Vorrang. Er wird (1) bei auf 
+Datentraegern vertriebenen Produkten durch die Installation des digitalen 
+Produktes und (2) bei Downloadkauf - abhaengig von der Ausgestaltung des 
+jeweiligen Produkts - durch den Bestellvorgang, durch den Zugriff auf das 
+Produkt oder durch die Bestaetigung des eingeblendeten Lizenzvertrages beim Start 
+eines digitalen Produktes selber akzeptiert. Sollten Sie den nachfolgenden 
+Bestimmungen nicht zustimmen, so sehen Sie bitte von einer Installation, 
+elektronischen Bestellung, den Zugriff auf das Produkt oder von der Bestaetigung 
+des Lizenzvertrages beim Start des Produktes ab. Sie sind in diesem Fall zu der 
+Nutzung des Produktes nicht berechtigt.
+
+--------------------------------------------------------------------------------
+1. Gegenstand des Vertrags 1.1 Der Verlag ("Lizenzgeber") wird dem Kunden 
+("Lizenznehmer") nach Massgabe dieses Vertrages digitale Inhalte ("Produkt") 
+gegen Zahlung einer Verguetung zur Nutzung ueberlassen. 
+
+1.2 Der Vertrieb des Produkts erfolgt nach Eingabe der fuer die Zahlung der 
+jeweiligen Lizenzgebuehr erforderlichen Daten durch den Lizenznehmer.
+
+--------------------------------------------------------------------------------
+2. Urheberrecht 2.1 Das Produkt ist nach den gesetzlichen Bestimmungen 
+urheberrechtlich geschuetzt. 
+
+2.2. Alle aus dem Urheberrecht resultierenden Rechte stehen ausschliesslich dem 
+Lizenzgeber zu, soweit sich aus dem Lizenzvertrag nicht etwas anderes ergibt. 
+Der Lizenzgeber raeumt dem Nutzer das nicht ausschliessliche Recht ein, das 
+Produkt zu den Bedingungen dieses Lizenzvertrages ab der vollstaendigen und 
+vorbehaltslosen Zahlung der vereinbarten Verguetung zu nutzen (d.h. zu 
+installieren, zu laden und ablaufen zu lassen); im uebrigen verbleiben alle 
+Rechte an dem Produkt und der Dokumentation bei dem Lizenzgeber. Das 
+Nutzungsrecht ist auf den vereinbarten Zeitraum, wie in der zugestellten 
+Rechnung ausgewiesen, begrenzt, in Ermangelung einer solchen Vereinbarung ist 
+das Nutzungsrecht zeitlich unbefristet. Das Nutzungsrecht erlischt in jedem Fall 
+automatisch und ohne besondere Kuendigung, wenn der Lizenznehmer eine der in 
+diesem Vertrag aufgefuehrten Bestimmungen verletzt. In diesem Fall ist der 
+Lizenznehmer verpflichtet, das Produkt sofort vollstaendig zu loeschen und/oder 
+die Sperrung seiner Zugangsberechtigung zur Nutzung des Produktes durch den 
+Lizenzgeber zu akzeptieren. 
+
+2.3 Urhebervermerke, Seriennummern, Wasserzeichen und sonstige 
+Produktidentifikation duerfen in keinem Fall entfernt oder veraendert werden. 
+
+2.4 Der Lizenznehmer ist nicht berechtigt, das Produkt zu uebersetzen, zu 
+bearbeiten, zu dekompilieren, zu reverse-engineeren, zu disassemblieren oder 
+durch Dritte Aenderungen oder Eingriffe am Produkt vorzunehmen, auch nicht, um 
+moegliche Programmfehler zu beseitigen. Das Herausloesen, Kopieren und Weitergeben 
+von Daten jeder Art ist ebenfalls untersagt. Die Rechte des Lizenznehmers nach
+Paragraph 69e UrhG bleiben hiervon unberuehrt.
+
+2.5 Benoetigt der Lizenznehmer Informationen, die zur Herstellung der 
+Interoperabilitaet des Produktes mit unabhaengig geschaffenen anderen 
+Computerprogrammen unerlaesslich sind, hat er eine dahingehende Anfrage 
+schriftlich an den Lizenzgeber zu richten. Der Lizenzgeber darf die Herausgabe 
+der Informationen aus berechtigten Gruenden verweigern. 
+
+2.6 Das bestimmungsgemaesse Ausdrucken von in dem Produkt angebotenen Inhalten 
+sowie das Anfertigen von Kopien dieser Materialien ist im Rahmen der 
+gesetzlichen Vorschriften gestattet.
+
+2.7 Digitale Produkte, die aufgrund ihrer Beschaffenheit eine Bearbeitung 
+ausdruecklich zulassen (insbesondere nicht schreibgeschuetzte Office-Dokumente), 
+duerfen durch den Lizenznehmer bearbeitet oder uebersetzt werden. Das Herausloesen, 
+Kopieren und Weitergeben von Daten jeder Art oder Dateien (auch die selbst 
+veraenderten) ist jedoch auch fuer diese Produkte im vorgenannten Umfang 
+untersagt.
+
+2.8 Besonderheiten fuer Kopiervorlagen: Die Kopiervorlagen sind urheberrechtlich 
+geschuetzt. Der Kunde ist verpflichtet, die Urheberrechte zu beachten und die 
+Kopiervorlagen nur fuer den Unterrichtsgebrauch an allgemeinbildenden Schulen und 
+nur in dem nachfolgend gestatteten Umfang zu nutzen:
+
+2.8.1 Der Verlag raeumt dem Kunden das nicht ausschliessliche Recht ein, die 
+Kopiervorlagen fuer den Unterrichtsgebrauch an Schulen zu vervielfaeltigen. Der 
+Kunde ist nicht berechtigt, dieses Recht auf Dritte zu uebertragen oder eine 
+Unterlizenz zu erteilen.
+
+2.8.2 Soweit der Kunde die von dem Verlag zur Verfuegung gestellten 
+Kopiervorlagen bearbeiten oder umgestalten moechte, hat der Kunde folgendes zu 
+beachten: a) Abbildungen, die in den Kopiervorlagen enthalten sind, darf der 
+Kunde weder bearbeiten oder umgestalten noch ausserhalb der Kopiervorlagen 
+verwenden. Der Kunde darf daher auch nicht Abbildungen zuschneiden und die so 
+gewonnenen Bildausschnitte weder innerhalb noch ausserhalb der Kopiervorlagen 
+verwenden. b) Texte, die in den Kopiervorlagen enthalten sind und die namentlich 
+einem Urheber zugeordnet sind (Urheberrechtsvermerk), darf der Kunde weder 
+bearbeiten oder umgestalten noch ausserhalb der Kopiervorlagen verwenden. c) Alle 
+weiteren Texte, die nicht unter lit. b) fallen, darf der Kunde unter Wahrung der 
+Urheberpersoenlichkeitsrechte der Urheber der Texte bearbeiten oder umgestalten. 
+Der Kunde darf diese Texte aber nicht uebersetzen oder ausserhalb der 
+Kopiervorlagen verwenden. d) Text- und Bildquellennachweise, die in den 
+Kopiervorlagen vorhanden sind, darf der Kunde nicht entfernen. e) Der Kunde darf 
+in die Kopiervorlagen weitere Texte oder Abbildungen nur einfuegen, wenn er fuer 
+diese weiteren Texte oder Abbildungen ueber die Nutzungsrechte zur 
+Vervielfaeltigung in Kopiervorlagen verfuegt.
+
+2.8.3 Der Kunde ist fuer von ihm vorgenommene Bearbeitungen oder Umgestaltungen 
+der Kopiervorlagen sowie fuer sich daraus eventuell ergebende Ansprueche, auch 
+soweit es sich um Ansprueche Dritter handelt, verantwortlich.
+
+--------------------------------------------------------------------------------
+3. Beginn und Dauer des Vertrags Bis zur vollstaendigen Zahlung der jeweils 
+faelligen Verguetung ist dem Lizenznehmer die Nutzung des Produkts nicht 
+gestattet. 
+
+--------------------------------------------------------------------------------
+4. Versionen/Lizenzen
+- Einzelversion/Einzellizenz
+Der Lizenzgeber gewaehrt dem Lizenznehmer in dem sich aus Nr. 2 ergebenden Umfang 
+das Recht, auf das Produkt zuzugreifen bzw. dieses auf einem Endgeraet zu nutzen. 
+Produkte, deren Nutzungslizenz auf eine bestimmte Person namentlich uebertragen 
+ist, duerfen nur durch diese Person installiert und genutzt werden. Der 
+Lizenznehmer ist verpflichtet, geeignete Vorkehrungen zu treffen, die 
+verhindern, dass diese Lizenz/dieses Produkt durch andere Personen als die 
+namentlich genannte Person genutzt werden kann.
+
+- Kollegiumslizenz
+Der Lizenzgeber gewaehrt dem Lizenznehmer in dem sich aus Nr. 2 ergebenden Umfang 
+das Recht, das Produkt zu nutzen, auf das Produkt zuzugreifen und das Produkt 
+auf einem Server bzw. in einem lokalen Netzwerk des Lizenznehmers (Schule) zu 
+installieren, sofern dieses technisch durch den Lizenzgeber ermoeglicht wird. Die 
+Anzahl der Nutzungsberechtigten ist dabei beschraenkt auf die jeweilige Anzahl 
+der Personen des betroffenen Fachkollegiums des Lizenznehmers (Schule). Die 
+Anzahl der Endgeraete im lokalen Netzwerk, in dem das Produkt installiert wird, 
+ist jedoch nicht beschraenkt, soweit diese Endgeraete dem Lizenznehmer (Schule) 
+gehoeren. Eine Installation auf weiteren Servern ist dabei unzulaessig. Zudem ist 
+die Installation, Nutzung bzw. der Zugriff auf das Produkt zur 
+Unterrichtsvorbereitung auf einzelnen privaten bzw. nicht der erwerbenden Schule 
+gehoerenden Endgeraeten fuer die jeweiligen Lehrer des betroffenen Fachkollegiums 
+des Lizenznehmers (Schule)  zulaessig. Der Lizenznehmer (Schule) wird die Lehrer, 
+die das Produkt nach den vorstehenden Regelungen bestimmungsgemaess nutzen duerfen, 
+zur Einhaltung dieses Lizenzvertrags verpflichten. Der Zugriff auf ein Online 
+Produkt ist bei der Kollegiumslizenz spatial nicht eingeschraenkt.
+
+- Klassenlizenz
+Der Lizenzgeber gewaehrt dem Lizenznehmer in dem sich aus Nr. 2 ergebenden Umfang 
+das Recht, das Produkt zu nutzen, auf das Produkt zuzugreifen und das Produkt 
+auf einem Server bzw. in einem lokalen Netzwerk des Lizenznehmers (Schule) zu 
+installieren, sofern dieses technisch durch den Lizenzgeber ermoeglicht wird. Die 
+Anzahl der Nutzungsberechtigten ist dabei beschraenkt auf die Lehrperson eines 
+Faches in einer Klasse bzw. in einem Kurs und die jeweiligen Lernenden dieser 
+Klasse bzw. dieses Kurses an einem Institut des Lizenznehmers (Schule). Die 
+Anzahl der Endgeraete im lokalen Netzwerk, in dem das Produkt installiert wird, 
+ist jedoch nicht beschraenkt, soweit diese Endgeraete dem Lizenznehmer (Schule) 
+gehoeren. Eine Installation auf weiteren Servern ist dabei unzulaessig. Zudem ist 
+die Installation, Nutzung bzw. der Zugriff auf das Produkt zur 
+Unterrichtsvorbereitung auf einzelnen privaten bzw. nicht der erwerbenden Schule 
+gehoerenden Endgeraeten fuer die betroffene Lehrperson des Faches des Lizenznehmers 
+(Schule) zulaessig. Der Lizenznehmer (Schule) wird die Lehrperson, die das 
+Produkt nach den vorstehenden Regelungen bestimmungsgemaess nutzen darf, zur 
+Einhaltung dieses Lizenzvertrags verpflichten. Der Zugriff auf ein Online 
+Produkt ist bei der Klassenlizenz spatial nicht eingeschraenkt.
+
+- Schulversion/Schullizenz
+Der Lizenzgeber gewaehrt dem Lizenznehmer in dem sich aus Nr. 2 ergebenden Umfang 
+das Recht, das Produkt auf einem Server bzw. in einem lokalen Netzwerk der 
+erwerbenden Schule zu installieren, zu nutzen bzw. auf das Produkt zuzugreifen. 
+Die Anzahl der Computer im lokalen Netzwerk ist dabei nicht beschraenkt. Eine 
+Installation auf weiteren Servern ist dabei unzulaessig. Zudem ist die 
+Installation zur Unterrichtsvorbereitung auf einzelnen privaten bzw. nicht der 
+erwerbenden Schule gehoerenden Computern fuer Lehrer der erwerbenden Institution 
+zulaessig. Der Zugriff auf ein Online Produkt ist dagegen spatial nicht 
+eingeschraenkt. 
+
+--------------------------------------------------------------------------------
+5. Besonderheiten fuer Inhalte, die auf physischen Datentraegern 
+ausgeliefert/erworben wurden (kurz: 'Softwareprodukt') 5.1 Sie sind befugt den 
+Originaldatentraeger des Softwareprodukts einschliesslich des Benutzerhandbuchs 
+und des sonstigen Begleitmaterials an berechtigte Dritte zu veraeussern, 
+vorausgesetzt der erwerbende Dritte erklaert sich mit der Weitergeltung der 
+vorliegenden Vertragsbedingungen einverstanden. Infolge der Weitergabe erlischt 
+Ihr Recht zur Nutzung des Softwareprodukts. Sie duerfen das Softwareprodukt 
+einschliesslich des Benutzerhandbuchs und des sonstigen Begleitmaterials Dritten 
+nicht vermieten oder verleasen.
+
+5.2 Die Herstellung von Sicherungskopien des Softwareprodukts ist unzulaessig. 
+Sofern trotz sachgemaesser Behandlung aufgrund von Beschaedigungen, die den 
+Gebrauch des Softwareproduktes erheblich einschraenken, ein neuer Datentraeger 
+oder ein neues Handbuch benoetigt wird, wenden Sie sich bitte an den Verlag 
+(support@klett.de). Ein Austausch des Softwareproduktes wird in diesen Faellen 
+vom Verlag fuer den Zeitraum der gewoehnlichen Nutzungsdauer eines solchen 
+Softwareprodukts kostenlos vorgenommen.
+
+5.3 Die ueberlassung von Softwareprodukten erfolgt ausschliesslich in 
+maschinenlesbarer Form (object code). Der Quellcode (source code) ist nicht 
+Vertragsgegenstand und wird nicht mit ausgeliefert.
+
+--------------------------------------------------------------------------------
+6. Gewaehrleistung und Haftung Die Verjaehrungsfrist fuer Ansprueche von anderen 
+Lizenznehmern als Privatpersonen wegen Sachmaengeln an den Produkten betraegt 12 
+Monate. Dies gilt nicht, soweit das Gesetz laengere Fristen vorschreibt sowie in 
+Faellen der Verletzung des Lebens, des Koerpers oder der Gesundheit, bei 
+Verletzung von Garantien, bei einer vorsaetzlichen oder grob fahrlaessigen 
+Pflichtverletzung  des  Lizenzgebers  und  bei  arglistigem Verschweigen eines 
+Mangels. Die Frist beginnt mit dem Zeitpunkt des Gefahruebergangs. 
+
+Bei einigen Produkten kann es aufgrund dem Verlag nicht zustehender digitaler 
+Veroeffentlichungsrechte dazu kommen, dass bestimmte textuelle, bildliche oder 
+mediale Elemente nicht angezeigt werden duerfen. Dies begruendet keinen Mangel.
+
+

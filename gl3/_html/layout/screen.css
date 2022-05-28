@@ -1,0 +1,487 @@
+/* Datei: screen.css */
+/* Stylesheet fuer Screen-Betrachtung */
+/* Erstellt von: Christian Leppert & Thomas Flinspach, 2007 */
+/* Letzte Aenderung am: 02.06.2009 */ 
+/* Anmerkung: Farbwerte werden von der color.css ueberschrieben
+
+/* Angaben nur für den Internet Explorer mit Star-HTML-Hack */
+* html, * html body{
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow:hidden; /* KPH */
+}
+
+* html #content_container {
+	padding:0;
+	height:100%; /* KPH */
+  overflow: hidden;
+  overflow-y: auto; /* KPH */
+}
+
+/*Standardtags*/
+
+body {
+	font: normal 100.01% Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/background_menue.gif); /* steuert Menue Hintergrundfarbe */
+	background-repeat:repeat-y;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	/* color: black; */
+}
+
+a {
+	/* color: black; */
+}
+
+/* Titelleiste Layout */
+div#Titel {
+	padding:0;
+	height:59px;
+	border: 0px;
+	font-size: 0.92em;
+	margin: 0em 0em 0em 0em; /* oben rechts unten links */
+	background-image: url(../images/head.gif); /*Titelbild im Hintergrund*/
+	background-repeat: repeat-x; 
+}
+
+/* Menue Layout */
+
+ul#Menue {
+	float: left;
+	padding: 0;
+	width: 197px;
+	text-align: left;
+	font-size: 12px;
+	margin: 0em 0em 0em 0em; /* oben rechts unten links */
+	border-top: 1px solid #FFFFFF; /*weisser Zwischenraum Menue-Titel*/
+}
+
+* html ul#Menue {  /* Korrekturen fuer IE 5.x */
+ 	/*width: 197px;
+	w\idth: 100px;
+	padding-left: 0;
+	padd\ing-left: 0.8em;*/
+}
+
+ul#Menue li {
+	list-style: none; /* kein Aufzaehlungszeichen */
+	font-weight: bold;
+	margin: 0em 0em 0em 0em; /* oben rechts unten links */
+	padding:0;
+	border-bottom: 1px solid #FFFFFF; /*weisser Zwischenraum*/
+}
+
+ul#Menue li ul {
+	padding:0;
+	margin: 0em 0em 0em 0em; /* oben rechts unten links */
+}
+
+ul#Menue li ul li {
+	padding:0;
+	font-weight: normal;
+	border-bottom: 0px solid #FFFFFF; /*weisser Zwischenraum*/
+	border-top: 1px solid #FFFFFF; /*weisser Zwischenraum*/
+}
+
+ul#Menue a {
+ 	display: block;
+	width: auto;	
+	padding: 0.2em 0em 0.2em 1em; /*padding: 0.2em;*/
+	/* color: #3D4689; */
+	text-decoration: none;
+	white-space: pre; /* Umbruch im Menue ab Generator Version 1.1.13 */
+}
+
+ul#Menue li ul a {
+	padding: 0em 0em 0em 1.5em; /* Einrueckung Untermenue: oben rechts unten links */
+}
+
+* html ul#Menue li ul a { /* Korrekturen fuer IE 5.5, 6.0 */
+	height: 100%; /* Hoehe Untermenue sonst zu gross */
+}
+
+ul#Menue li ul li ul a {
+	padding: 0em 0em 0em 2.6em; /* Einrueckung unter Untermenue: oben rechts unten links */
+}
+
+* html ul#Menue li ul li ul a { /* Korrekturen fuer IE 5.5, 6.0 */
+	height: 100%; /* Hoehe Unter-Untermenue sonst zu gross */
+}
+
+ul#Menue a:link {
+	/* background-color: #B3C4E0; */
+}
+
+ul#Menue a:visited {
+	/*background-color: #B3C4E0; */
+}
+
+ul#Menue a:hover {
+	/* background-color: #CAD6E9; */
+}
+
+ul#Menue a:active {
+	/*background-color: white;*/
+}
+
+.hi {
+	/* background-color: white; */
+	/* color: #0077be !important; */
+}
+
+
+/* Inhalt Layout */
+
+#content_container{
+	position: relative; /* KPH */
+	padding-bottom:0;	
+}
+
+div#Inhalt {
+	float: clear; /* KPH */
+	font-size: 12px;
+	position: absolute; /* KPH */
+	left: 197px;
+	right: 0px;
+/*	margin: 0em 0em 0em 197px; */ /* oben rechts unten links */
+	padding: 12px;
+/*	background-color: #FFFFFF; KPH */
+	padding-bottom: 35px; /* KPH: Damit Scroller rechtzeitig angezeigt wird */
+}  
+ 
+div#InhaltMitte {
+	min-height: 300px;
+	background-color: #FFFFFF;
+	margin: 0em 0em 30px 197px; /* oben rechts unten links */
+	padding: 12px; /* oben rechts unten links */
+}
+ 
+div#Inhalt h2 {
+    font-size: 1.2em;
+    margin: 1em 0em 1em 0em; /* oben rechts unten links */
+    color: black;
+  }
+div#Inhalt p {
+	font-size: 1em;
+	margin: 0.5em 0em 0.5em 0em; /* oben rechts unten links */
+}
+
+/*Inhalt Tabelle Layout*/
+
+.InhaltTable {
+	width: 555px;
+	padding:0;
+	margin: 0em 0em 2em 0em; /*oben rechts unten links */
+	text-align: left;
+	font-size: 12px;
+	background-color: #FFFFFF;
+}
+
+th.InhaltTableHeader {
+	font-size: 0.92em;
+	padding: 0.2em 1em 0.2em 1em; /* Abstand von rechts, oben rechts unten links */
+	/* color: white; */
+	/* background-color: #3D4689;/*Farbe der Tabellenkopfzeile*/
+	/* border-top: 1px solid #3D4689; /*Farbe der Kontur der Tabellenkopfzeile*/
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-weight: normal;
+}
+
+tr.InhaltTable {
+	font-weight: normal;
+	padding: 0.2em 1em 0.3em 1em;  /* Abstand von oben rechts unten links */
+}
+
+td.InhaltTable {
+	font-size: 0.92em;
+	vertical-align: top;
+	font-weight: normal;
+	padding: 0.2em 1em 0.1em 1em; /* Abstand von oben rechts unten links */
+	height: 25px; /*Hoehe definieren wegen Linien*/
+	/* border-bottom: 1px solid #3D4689; /*Farbe der Trennlinien in der Tabelle*/
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.InhaltTable a, .InhaltLinkRahmen a {
+	width: auto;	
+	text-decoration: none;
+	/*display:block;*/ /*erst mit CSS2.0*/
+	background-repeat:no-repeat;
+	margin: 0em 0em 0em 0em; /* oben rechts unten links */
+	padding: 2px 0px 3px 0px; /*padding: 0.2em;*/
+	line-height: 1.5em;
+}
+
+.InhaltTable a:hover {
+	/* color: red; /*Farbe der verlinkten Dateinamen bei Rollover*/
+}
+
+.fliesstext {
+	margin: 0em 0em 0em 0em; /*oben rechts unten links */
+}
+
+.InhaltLinkRahmen {
+	font-size: 0.92em;
+	/* color: #3D4689; Farbe der Textinks im Rahmen*/
+	padding: 0.5em 1.5em 0.5em 1.5em; /* oben rechts unten links*/
+	margin: 0em 0em 2em 0em; /*oben rechts unten links */
+	/* border: 1px solid red; Rahmenfarbe der hervorgehobenen Datei*/
+	border-style: solid;
+	border-width: 1px;
+}
+
+a.InhaltLinkRahmen:hover {
+	/* color: red; */
+}
+
+.InhaltLinkRahmen a {
+	text-decoration: none;
+}
+
+/* Typendeklarationen nach Dateiendung */
+.InhaltTable a.html_type, .InhaltLinkRahmen a.html_type {
+	background-image:url(applikation.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.htm_type, .InhaltLinkRahmen a.htm_type {
+	background-image:url(applikation.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.doc_type, .InhaltLinkRahmen a.doc_type {
+	background-image:url(doc.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.rtf_type, .InhaltLinkRahmen a.rtf_type {
+	background-image:url(doc.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.pdf_type, .InhaltLinkRahmen a.pdf_type {
+	background-image:url(pdf.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.txt_type, .InhaltLinkRahmen a.txt_type {
+	background-image:url(textdokument.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.bmp_type, .InhaltLinkRahmen a.bmp_type {
+	background-image:url(foto.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.jpg_type, .InhaltLinkRahmen a.jpg_type {
+	background-image:url(foto.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.jpeg_type, .InhaltLinkRahmen a.jpeg_type {
+	background-image:url(foto.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.gif_type, .InhaltLinkRahmen a.gif_type {
+	background-image:url(foto.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.wmf_type, .InhaltLinkRahmen a.wmf_type {
+	background-image:url(foto.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.mov_type, .InhaltLinkRahmen a.mov_type {
+	background-image:url(film_quicktime.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.avi_type, .InhaltLinkRahmen a.avi_type {
+	background-image:url(film.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.mpeg_type, .InhaltLinkRahmen a.mpeg_type {
+	background-image:url(film.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.mpg_type, .InhaltLinkRahmen a.mpg_type {
+	background-image:url(film.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.swf_type, .InhaltLinkRahmen a.swf_type {
+	background-image:url(swf.gif);
+	display: block;
+	padding-left: 21px;
+}
+.InhaltTable a.flv_type, .InhaltLinkRahmen a.flv_type {
+	background-image:url(flv.gif);
+	display: block;
+	padding-left: 21px;
+}
+.InhaltTable a.mp3_type, .InhaltLinkRahmen a.mp3_type {
+	background-image:url(audio.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.wav_type, .InhaltLinkRahmen a.wav_type {
+	background-image:url(audio.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.exe_type, .InhaltLinkRahmen a.exe_type {
+	background-image:url(applikation.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.msi_type, .InhaltLinkRahmen a.msi_type {
+	background-image:url(applikation.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.ppt_type, .InhaltLinkRahmen a.ppt_type {
+	background-image:url(ppt.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.xls_type, .InhaltLinkRahmen a.xls_type {
+	background-image:url(xls.gif);
+	display: block;
+	padding-left: 21px;
+}
+.InhaltTable a.galleryitem_type, .InhaltLinkRahmen a.galleryitem_type {
+	background-image:url(application.gif);
+	display: block;
+	padding-left: 21px;
+}
+.InhaltTable a.mp4_type, .InhaltLinkRahmen a.mp4_type {
+	background-image:url(film.gif);
+	display: block;
+	padding-left: 21px;
+}
+.InhaltTable a.wmv_type, .InhaltLinkRahmen a.wmv_type {
+	background-image:url(film.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.zip_type, .InhaltLinkRahmen a.zip_type {
+	background-image:url(zip.gif);
+	display:block;
+	padding-left: 21px;
+}
+.InhaltTable a.www_type, .InhaltLinkRahmen a.www_type {
+	background-image:url(www.gif);
+	display:block;
+	padding-left: 21px;
+}
+
+/*Layout Impressum*/
+
+div#InhaltZweiSpaltenLinks {
+	float: left;
+  	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	/* background-color: #FFFFFF; */
+   padding-right: 20px;
+}
+
+div#InhaltZweiSpaltenRechts {
+	padding: 7px;
+  	margin-top: 23px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	/* background-color: #FFFFFF; */
+}
+div#InhaltZweiSpaltenUnten {
+	clear: both;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom: 24px;
+}
+
+img .impressum_logo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*Layout Fussleiste*/
+
+div#Fussleiste, div#Fussleiste-x {	
+  clear: both; /* IE7 */
+	position: fixed;
+	width: 100%;
+	height: 32px;
+	font-size: 12px;
+	bottom: 0px !important; /* KPH */
+	bottom: -1px; /* KPH */
+	margin: 0em 0em 0em 0em; /* oben rechts unten links */
+}
+
+div#Fussleiste-x {
+  visibility:hidden;
+  z-index: -1;
+}
+
+* html div#Fussleiste, *html div#Fussleiste-x {
+	position: absolute; /* KPH */
+	padding: 0.5em 0em 0em;
+	margin: 0em 0em -6px 0em; /* KPH Hoehe korrigieren */	
+}
+
+* html div#Fussleiste-x {
+  visibility:visible;
+}
+
+#Fussleiste-innen {	
+	padding: 0.5em 0em 0em 210px; /* padding: 0.2em;*/
+  height: 32px;
+	border-top: 1px solid #FFFFFF; /*weisser Zwischenraum*/ 
+}
+
+* html #Fussleiste-innen {
+  margin-right: 17px;
+}
+
+div#Fussleiste a {
+	/* color: #FFFFFF;	*/
+	text-decoration: none;
+	/*background-image:url(buPfeil.gif);
+	background-repeat:no-repeat;*/
+	padding: 0em 0.7em 0em 0em;
+}
+
+div#Fussleiste img {
+	padding: 0em 0em 0em 0.3em;
+}
+
+#modsearchFrm input{
+	border-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-color:#CCCCCC;
+}
+
+#modsearchFrm{
+	display:inline;
+}

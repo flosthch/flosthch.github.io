@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+	<head>
+		<title>Klett Video Player</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="../layout/video.css" />
+		<script type="text/javascript" src="swfobject.js"></script>
+		<script type="text/javascript">
+		// Datei-Uebergabeparameter ermitteln
+		// Beispielaufruf: href="scripts/swfplayerflv.htm?file=../01Video/part4_video_romance.flv&width=600&height=450&bgColor=FF0000"
+		
+		var pArray = window.location.search.substr(1).split('&');
+		var params = Array();
+		for(var i=0;i < pArray.length; i++) {
+	 		var tempArray = pArray[i].split('=');
+	  		params[tempArray[0]] = tempArray[1]; 
+		}
+		var fileName = '../' + params['file'];
+		var FLVwidth = params['width'];
+		var FLVheight = params['height'];
+		var bgColor = params['bgColor'];
+
+		fileName = fileName.substr(0,fileName.length-4)+'.swf';
+		// Flash einbinden
+		var flashvars = {
+			callBy: "html"
+		};
+
+		var params = {
+			menu: "false",
+			allowScriptAccess: "always",
+			allowFullScreen: "true"
+			//base: Specifies the base directory or URL used to resolve all relative path statements in the Flash Player movie.
+		};
+
+//alert('FileName: '+fileName+ ' W: '+FLVwidth+' H: '+FLVheight+' Color: '+bgColor);
+
+
+		var attributes = {};
+			
+		swfobject.embedSWF(fileName, "flashContent", FLVwidth, FLVheight, "9.0.115", "expressInstall.swf", flashvars, params, attributes);
+
+		function fnSetBgColor(){
+//alert('fnSetBgColor: '+bgColor);
+			//Hintergrundfarbe setzen
+			document.bgColor='#'+bgColor;
+		}
+
+
+		
+		</script>		
+	</head>	
+	<body bgcolor="#000000" onLoad="fnSetBgColor()">
+	<!-- saved from url=(0014)about:internet -->
+
+	<div id="flashContent">
+		<p><font color="#cccccc">Es wurde kein aktueller FlashPlayer gefunden oder die Anzeige aktiver Inhalte ist blockiert.</font></p>
+		<p><font color="#cccccc"><a href="http://www.adobe.com/go/getflashplayer" target="_blank">Download Adobe Flash Player!</a></font></p>
+		<p><a href="http://www.adobe.com/go/getflashplayer" class="noHover" target="_blank"><img src="../layout/get_flash_player.gif" alt="Download Adobe Flash Player" border="0" /></a></p>
+	</div>
+
+<noscript><font color="#cccccc">Javacsript ist ausgeschaltet!</font></noscript>
+		
+	</div>
+	</body>
+
+</html>

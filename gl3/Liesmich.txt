@@ -1,0 +1,91 @@
+
+--------------------------------------------------------------------------------
+Liesmich.txt  -  Green Line 2 Fit fuer Tests und Klassenarbeiten  - 	1.8
+--------------------------------------------------------------------------------
+
+Inhalt 
+1. Installation
+2. Deinstallation
+3. Systemvoraussetzungen
+4. Hinweise zum Programm
+5. Software-Support
+6. Kundenservice
+7. Copyright-Informationen
+
+--------------------------------------------------------------------------------
+
+1. Installation
+
+Das Programm oeffnet sich am PC direkt nach Einlegen der CD-ROM. 
+Wenn das Programm nicht automatisch startet, bitte ueber den Dateimanager 
+die Datei Start.exe oder Datei index.html starten.
+Beim Mac und unter Linux die Datei index.html starten oder in einem Internet-
+Browser oeffnen.
+
+--------------------------------------------------------------------------------
+
+2. Deinstallation
+
+
+--------------------------------------------------------------------------------
+
+3. Systemvoraussetzungen
+CD Laufwerk
+Betriebssysteme mit Webbrowser ab:
+Microsoft Internet Explorer 5.5, Mozilla Firefox 2.0, Safari 3.0, Opera 9.0, 
+Konqueror 3.2 
+Adobe Reader ab Version 5, Adobe Flash Player, Medienplayer für Audiodateien
+
+--------------------------------------------------------------------------------
+
+4. Hinweise zum Programm
+
+*Zugriff ueber UNC-Pfad nur eingeschraenkt moeglich
+Moechten Sie die Anwendung ueber die Datei "Start.exe" von einem Serverlaufwerk 
+heraus aufrufen, so bitten wir Sie, dies über eine feste Laufwerksbuchstaben-
+verknuepfung zu tun und nicht über eine sogenannte UNC-Verknuepfung (z. B.  
+\\Servername\Freigabename\Pfad). Aktuell lassen sich bei einer UNC-Verknuepfung 
+keine Dateien oeffnen.
+
+Moechten oder koennen Sie dennoch nicht auf die UNC-Verknuepfung verzichten, so 
+starten Sie die Anwendung nicht ueber die Datei "Start.exe", sondern ueber die 
+Datei "index.html" direkt in Ihrem Browser.
+
+--------------------------------------------------------------------------------
+
+5. Software-Support
+
+Sollten Sie Probleme mit dem vorliegenden Programm haben, finden Sie in der
+Datei "Hotline.txt", die sich auf der obersten Ebene der CD-ROM befindet, 
+unsere Kontaktdaten und weitere Hilfestellungen.
+
+--------------------------------------------------------------------------------
+
+6. Kundenservice
+
+Wenn Sie zu diesem Programm inhaltliche Fragen bzw. Anmerkungen haben oder wenn
+Sie mehr ueber unsere weiteren Klett-Titel wissen moechten, dann erreichen Sie
+uns folgendermassen: 
+
+Telefon: 	07 11 / 66 72 13 33 (Montag bis Samstag 8 - 20 Uhr)
+Fax:	 	07 11 / 98 80 90 00 99
+E-Mail:	 	kundenservice@klett.de
+Internet:	www.klett.de
+
+Post:		Ernst Klett Verlag GmbH
+		Kundenservice 
+		Postfach 10 26 45
+		70022 Stuttgart
+
+--------------------------------------------------------------------------------
+
+7.  Copyright-Informationen
+
+Copyright(C) Ernst Klett Verlag GmbH, Stuttgart 2015
+Alle Rechte vorbehalten.
+
+Microsoft, MS-DOS und Windows sind eingetragene Warenzeichen der Microsoft
+Corporation in den USA und/oder in anderen Laendern. 
+Fuer andere, in diesem Dokument genannte Firmen- oder Warenzeichen, Firmen- 
+und Markennamen etc. gilt dieser Hinweis entsprechend.
+

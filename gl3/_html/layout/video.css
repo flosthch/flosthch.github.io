@@ -1,0 +1,42 @@
+/* Datei: screen.css */
+/* Stylesheet fuer die Darstellung von Videos */
+/* Erstellt von: Christian Leppert, 2010 */
+/* Letzte Aenderung am: 14.01.2010 */ 
+
+/* Angaben nur für den Internet Explorer mit Star-HTML-Hack */
+* html, * html body{
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow:hidden;
+}
+
+* html #content_container {
+	padding:0;
+	height:95%;
+	overflow:auto;
+}
+
+
+/*Standardtags*/
+body {
+	font: normal 100.01% Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	/* color: black; */
+}
+
+a {
+	/* color: black; */
+}
