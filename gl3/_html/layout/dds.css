@@ -1,0 +1,82 @@
+
+  * html #fussleiste-innen {
+		background: #76b82a;
+	}
+	
+	div#Fussleiste-innen, div#Fussleiste-x {	
+		color: #FFFFFF;
+		background-color: #76b82a;
+	}
+	
+	div#Fussleiste a {
+	  color: #FFFFFF;
+	}
+	
+	ul#Menue a {
+		color: #FFFFFF;
+	}
+	
+  ul#Menue a:hover {
+		background-color: #b1d34a ;
+	}
+	
+	.hi {
+		background-color: #FFFFFF;
+		color: #0071bc  !important;
+	}
+	
+	ul#Menue li {
+		border-bottom-color: #FFFFFF; 
+	}
+	
+	ul#Menue li ul li {
+		border-bottom-color: #FFFFFF; 
+		border-top-color: #FFFFFF; 
+	}
+	
+	p {
+		color: #000000;
+	}
+	
+	a {
+		color: #0071bc ;
+	}
+	
+	a:hover {
+		color: #0071bc ;
+	}
+
+	.InhaltTable a {
+		color: #0071bc ;
+	}
+
+  	.InhaltTable a:hover {
+		color: #0071bc ;
+	}
+  
+	.InhaltLinkRahmen {
+		color: #0071bc ;
+		border-color: #0071bc ;
+	}
+	
+	a.InhaltLinkRahmen:hover {
+		color: #0071bc ;
+	}
+
+	
+	th.InhaltTableHeader {
+	  color: #FFFFFF;
+	  background-color: #0071bc ;
+		border-top-color: #0071bc ;
+	}
+	
+	td.InhaltTable {
+		border-bottom-color: #0071bc ;
+	}
+
+ 	/* Breite des Vorschaubildes */
+	div.prev {
+    width: 150px;
+	}
+	
+  

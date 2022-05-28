@@ -1,0 +1,71 @@
+/* Datei: preview.css */
+/* Stylesheet fuer Vorschaufunktionen */
+/* Erstellt: Christian Leppert 2008 */
+/* Letzte Aenderung am: 24.11.2008 durch Thomas Flinspach*/ 
+
+
+div.prev {
+	position: absolute;
+	padding: 5px 5px 0px 5px;
+	margin: -15px 0px 0px 30px; /* oben rechts unten links */
+	color: #000000;
+	text-decoration:none;
+	text-align:left;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #FFFFFF;
+	display: none;
+	z-index: 10;
+}
+
+/* Korrekturen fuer bis IE6*/
+*html div.prev {
+	margin: -15px 0px 0px 30px;
+	marg\in: -15px 0px 0px 30px;
+}
+
+/* Korrekturen fuer IE7*/
+*+html div.prev {
+	margin: -15px 0px 0px 30px;
+}
+*+html .fliesstext div.prev {
+	margin: -22px 0px 0px 30px;
+}
+*+html .InhaltLinkRahmen div.prev {
+	margin: -25px 0px 0px 25px;
+}
+
+/* Korrekturen fuer Opera */
+html[lang] .fliesstext div.prev {
+    margin: -15px 0px 0px 30px;
+  }
+html[lang] .InhaltLinkRahmen div.prev {
+    margin: -18px 0px 0px 30px;
+}
+
+div.umbruch {
+	width: auto;
+	border: 1px solid #000;
+}
+div.prev a.prev_link {
+	margin: 5px 5px 5px 0px; /* oben rechts unten links */
+	padding: 0px 5px 10px 0px !important;
+	line-height: 1.1em !important;
+}
+div.prev a.prev_link:hover {
+	/* color: red; */
+}
+
+div.prev img.prev_bild {
+	margin: 5px 0px 5px 0px; /* oben rechts unten links */
+	padding: 0px 0px 0px 0px;
+	border-color: gray;
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+}
+
+.prev_source:hover div {
+	display: block;
+}

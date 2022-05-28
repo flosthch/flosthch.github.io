@@ -1,0 +1,137 @@
+================================================================================
+Hotline.txt			- Software-Support - 			     1.7
+================================================================================
+
+Sie haben ein Problem mit unserer Software? Im Internet finden Sie rund um die
+Uhr Hilfe zu technischen Problemen: www.klett.de/support
+
+--------------------------------------------------------------------------------
+Checkliste fuer Ihren Kontakt mit uns
+
+Der Klett Software-Support bietet Ihnen schnelle Hilfe bei technischen Problemen
+mit unseren Lernprogrammen. Damit wir Ihre Fragen umfassend beantworten koennen,
+benoetigen wir einige Informationen zu Ihrer PC-Ausstattung und zum
+aufgetretenen Problem. Diese Checkliste soll Ihnen dabei helfen. Senden Sie
+diese ausgefuellt per E-Mail, Post oder Fax an uns zurueck, die Kontaktadresse
+finden Sie am Ende dieses Dokuments.
+
+
+--------------------------------------------------------------------------------
+Checkliste
+--------------------------------------------------------------------------------
+
+Name, Vorname:
+Strasse/Nr:
+Postleitzahl/Ort:
+Telefon:
+Fax:
+E-Mail:
+Klett-Kundennummer:
+
+
+--------------------------------------------------------------------------------
+Produktinformation
+
+Name der Software:
+Bestellnummer (ISBN):
+
+
+--------------------------------------------------------------------------------
+Wortlaut der Fehlermeldung/genaue Beschreibung des Fehlers:
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+Wann ist der Fehler aufgetreten? _______________________________________________
+(Installation, Programmstart, Programmablauf, Beenden des Programms, Sonstiges?)
+
+--------------------------------------------------------------------------------
+Hardware
+
+Um Ihnen schnell und umfassend helfen zu koennen, benoetigen wir folgende Datei: 
+"dxdiag.txt"
+
+Diese Datei erstellen Sie wie folgt:
+Klicken Sie auf START-AUSFUEHREN, geben Sie "dxdiag" ein und bestaetigen Sie die
+Eingabe mit "OK". Im folgenden Fenster waehlen Sie
+"Alle Informationen speichern...". Es wird eine Datei "dxdiag.txt" erstellt.
+
+Senden Sie uns diese Datei per E-Mail oder ausgedruckt per Post.
+
+--------------------------------------------------------------------------------
+Weitere Angaben
+
+Prozessor: 
+
+() Intel/AMD, Modell _________ MHz ______
+
+() Sonstige __________________
+
+Betriebssystem:
+
+(Bitte bei Windows Versionsnummer und 32-/64-bit angeben)
+
+() Windows  __________________      
+
+() Sonstige __________________   
+
+
+Soundkarte (Hersteller/Typ): ___________________________________________________
+
+Grafikkarte (Hersteller/Typ/Treiberdatum): _____________________________________
+                                            
+________________________________________________________________________________
+
+CD/DVD-ROM-Laufwerk: (Hersteller/Typ): _________________________________________
+
+Sonstige Hardwarekomponenten: __________________________________________________
+
+--------------------------------------------------------------------------------
+Speicher
+
+Arbeitsspeicher: __________ MB RAM
+
+--------------------------------------------------------------------------------
+Besondere Softwarekomponenten oder andere Desktop-Programme
+
+
+Antivirenprogramm (Hersteller/Version): ________________________________________
+
+DVD-Player Software: (Hersteller/Version): _____________________________________
+
+Inhalt der Autostart-Gruppe: ___________________________________________________
+
+________________________________________________________________________________
+(Die Eintraege in der Autostart-Gruppe koennen Sie sich ueber das Menue
+"START - PROGRAMME - Autostart" anzeigen lassen.)
+
+--------------------------------------------------------------------------------
+Sonstige Bemerkungen:
+
+
+
+
+
+--------------------------------------------------------------------------------
+So erreichen Sie uns:
+
+
+Online-Hilfe:	  www.klett.de/support
+		  
+E-Mail:           support@klett.de
+
+Telefon:          0711 - 6672 1163
+               	  Montag bis Freitag 10 - 12 und 14 - 16 Uhr
+
+Fax:              0711 - 6672 2011
+
+Post:             Ernst Klett Verlag
+                  Kundenservice - Technische Hotline
+                  Postfach 10 26 45
+                  70022 Stuttgart
+
+
