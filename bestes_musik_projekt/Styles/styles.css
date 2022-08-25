@@ -1,0 +1,43 @@
+
+.button1{
+  padding: 50px 50px;
+  font-size: 30px;
+  color: green;
+}
+
+.button2{
+  padding: 30px 300px;
+  font-size: 60px;
+  color: yellow;
+}
+
+.button3{
+  padding: 200px 30px;
+  font-size: 50px;
+  color: blue;
+}
+
+.button4{
+  padding: 30px 30px;
+  font-size: 50px;
+  color: lightblue;
+}
+
+
+.text1{
+  color: blue;
+  font-size: 50px;
+  font-style: normal;
+}
+
+.text2{
+  color: green;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.text3{
+  color: red;
+  font-size: 30px;
+  font-style: italic;
+}
