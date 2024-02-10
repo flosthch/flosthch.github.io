@@ -1,0 +1,126 @@
+/*Generelle Seite und Text*/
+body {
+    font-size: 15px;
+}
+h1 {
+    font-size: 50px;
+    text-align: left;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration-line: underline;
+}
+/*Generelle Tabelleneinstellung*/
+#ubersicht {
+    width: fit-content;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+#ubersicht th, td {
+    width: 320px;
+    border-radius: 5px;
+    padding: 12.5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+#normal {
+    width: 100pc;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+#normal th, td {
+    border-radius: 5px;
+    padding: 12.5px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+th {
+    background-color: #04AA6D;
+    color: #FFFFFF;
+}
+#ubersicht_table {
+    width: 100pc; 
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden; 
+}
+#ubersicht_table {
+    border-left: 3px solid #04AA6D;
+    border-right: 3px solid #04AA6D;
+}
+/*Status der Stunde*/
+.normal {
+    background-color: #ffffff;
+    color: #000000;
+    text-decoration: none;
+}
+.vertretung {
+    background-color: #4a9eff7f;
+    color: #00067e;
+    text-decoration: underline;
+}
+.ausfall {
+    background-color: #ff55557f;
+    color: #770000;
+    text-decoration: line-through;
+}
+.info {
+    background-color: #f2ff007f;
+    color: #000000;
+    text-decoration: overline underline;
+}
+/*Select Menu*/
+.button_sidenav_open {
+    width:50px;
+    height:50px; 
+    padding-right: 10px;
+    border-color: #00000000;
+    background-color: #00000000;
+    background-image: url('./Images/Chris_Logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    float:left; 
+}
+.button_sidenav_close {
+    width:50px;
+    height:50px; 
+    border: 2px solid #000000;
+    background-color: #00000000;
+    background-image: url('./Images/Close.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: -50px;
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    border-right: 2px solid #000000;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 20px;
+    overflow: visible;
+}
+.button_sidenav {
+    height: 40px;
+    width: 140px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    border-color: #000000;
+    background-color: #00000000;
+}
+.button_sidenav:hover {
+    background-color: #828282;
+}

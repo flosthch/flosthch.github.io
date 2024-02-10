@@ -2,14 +2,14 @@
 <html>
 <head>
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="./scripts.js"></script>
-	<link rel="stylesheet" href="./styles.css">
+    <script src="../scripts.js"></script>
+	<link rel="stylesheet" href="../styles.css">
     <title>Christianeum Vertretungsplan</title>
     <button class="button_sidenav_open" onclick="show_sidenav()"></button>
     <h1>Christianeum Vertretungsplan</h1>
 </head>
 <body>
-    <h2>&Uuml;bersicht</h2>
+    <h2>5. Klassen</h2>
     <br>
     <div hidden class="sidenav" id="sidenav">
         <button class="button_sidenav_close" onclick="hide_sidenav()"></button>
@@ -17,18 +17,13 @@
         <button class="button_sidenav" onclick="open_selected('Klasse5.html')">5. Klassen</button>
         <button class="button_sidenav" onclick="open_selected('Klasse6.html')">6. Klassen</button>
     </div>
-    <div id="ubersicht_table"><table id="ubersicht">
+    <table id="normal">
         <tr>
             <th>5a</th>
             <th>5b</th>
             <th>5c</th>
             <th>5d</th>
             <th>5e</th>
-            <th>6a</th>
-            <th>6b</th>
-            <th>6c</th>
-            <th>6d</th>
-            <th>6e</th>
         </tr>
         <tr>
             <td class="normal">Dies ist die &Auml;nderung von J.</td>
@@ -36,11 +31,6 @@
             <td class="vertretung">Ms Phy</td>
             <td class="ausfall">Gra Inf</td>
             <td class="normal">Whs Che</td>
-            <td class="vertretung">Dies ist die &Auml;nderung von J.</td>
-            <td class="ausfall">Hg Phil</td>
-            <td class="vertretung">Ms Phy</td>
-            <td class="ausfall">Gra Inf</td>
-            <td class="normal">Whs Che</td>
         </tr>
         <tr>
             <td class="vertretung">vB Mat</td>
@@ -48,44 +38,10 @@
             <td class="normal"> Dies ist der Test von F!</td>
             <td class="ausfall">Gra Inf</td>
             <td class="ausfall">Whs Che</td>
-            <td class="vertretung">vB Mat</td>
-            <td class="normal">Hg Phil</td>
-            <td class="normal"> Dies ist der Test von F!</td>
-            <td class="normal">Gra Inf</td>
-            <td class="ausfall">Whs Che</td>
         </tr>
         <tr>
             <td class="normal">vB Mat</td>
             <td class="normal">Hg Phil</td>
-            <td class="vertretung">Ms Phy</td>
-            <td class="ausfall">Gra Inf</td>
-            <td class="normal">Whs Che</td>
-            <td class="normal">vB Mat</td>
-            <td class="ausfall">Hg Phil</td>
-            <td class="normal">Ms Phy</td>
-            <td class="ausfall">Gra Inf</td>
-            <td class="normal">Whs Che</td>
-        </tr>
-        <tr>
-            <td class="vertretung">vB Mat</td>
-            <td class="normal">Hg Phil</td>
-            <td class="normal">Ms Phy</td>
-            <td class="ausfall">Gra Inf</td>
-            <td class="ausfall">Whs Che</td>
-            <td class="vertretung">vB Mat</td>
-            <td class="vertretung">Hg Phil</td>
-            <td class="normal">Ms Phy</td>
-            <td class="ausfall">Gra Inf</td>
-            <td class="ausfall">Whs Che</td>
-        </tr>
-        <tr>
-            <td class="normal">vB Mat</td>
-            <td class="normal">Hg Phil</td>
-            <td class="vertretung">Ms Phy</td>
-            <td class="ausfall">Gra Inf</td>
-            <td class="normal">Whs Che</td>
-            <td class="normal">vB Mat</td>
-            <td class="ausfall">Hg Phil</td>
             <td class="vertretung">Ms Phy</td>
             <td class="ausfall">Gra Inf</td>
             <td class="normal">Whs Che</td>
@@ -96,10 +52,19 @@
             <td class="normal">Ms Phy</td>
             <td class="ausfall">Gra Inf</td>
             <td class="ausfall">Whs Che</td>
-            <td class="vertretung">vB Mat</td>
+        </tr>
+        <tr>
+            <td class="normal">vB Mat</td>
             <td class="normal">Hg Phil</td>
             <td class="vertretung">Ms Phy</td>
-            <td class="vertretung">Gra Inf</td>
+            <td class="ausfall">Gra Inf</td>
+            <td class="normal">Whs Che</td>
+        </tr>
+        <tr>
+            <td class="vertretung">vB Mat</td>
+            <td class="normal">Hg Phil</td>
+            <td class="normal">Ms Phy</td>
+            <td class="ausfall">Gra Inf</td>
             <td class="ausfall">Whs Che</td>
         </tr>
         <tr>
@@ -108,11 +73,6 @@
             <td class="info"></td>
             <td class="info"></td>
             <td class="info"></td>
-            <td class="info"></td>
-            <td class="info"></td>
-            <td class="info"></td>
-            <td class="info"></td>
-            <td class="info"></td>
         </tr>
         <tr>
             <td class="normal">vB Mat</td>
@@ -120,11 +80,6 @@
             <td class="vertretung">Ms Phy</td>
             <td class="ausfall">Gra Inf</td>
             <td class="normal">Whs Che</td>
-            <td class="normal">vB Mat</td>
-            <td class="normal">Hg Phil</td>
-            <td class="vertretung">Ms Phy</td>
-            <td class="normal">Gra Inf</td>
-            <td class="vertretung">Whs Che</td>
         </tr>
         <tr>
             <td class="vertretung">vB Mat</td>
@@ -132,13 +87,8 @@
             <td class="normal">Ms Phy</td>
             <td class="ausfall">Gra Inf</td>
             <td class="ausfall">Whs Che</td>
-            <td class="vertretung">vB Mat</td>
-            <td class="normal">Hg Phil</td>
-            <td class="normal">Ms Phy</td>
-            <td class="vertretung">Gra Inf</td>
-            <td class="normal">Whs Che</td>
         </tr>
-    </table></div>
+    </table>
 </body>
 </html>
 
