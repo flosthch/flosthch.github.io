@@ -5,10 +5,19 @@ function hide_sidenav() {
     document.getElementById('sidenav').hidden = true
 }
 function open_selected(url) {
+    console.log(window.location.pathname.split("/").pop() == "index.html")
     if (url == "index.html") {
-        window.open('./index.html','_self');
+        if (window.location.pathname.split("/").pop() == "index.html") {
+            window.open('./index.html','_self')
+        }else {
+            window.open('../index.html','_self')
+        }
     }else {
-        window.open('./Data/'.concat(url),'_self');
+        if (window.location.pathname.split("/").pop() == "index.html") {
+            window.open('./Data/'.concat(url),'_self')
+        }else {
+            window.open('./'.concat(url),'_self')
+        }
     }
 }
 function auto_scroll(original_width) {
