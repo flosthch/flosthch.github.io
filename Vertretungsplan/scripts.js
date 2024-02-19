@@ -31,8 +31,10 @@ $(document).ready(function() {
     var url
     if (window.location.pathname.split("/").pop() == "index.html") {
         url = './data.json'
+        ubersicht = document.getElementById('ubersicht').children[0]
     }else {
         url = '../data.json'
+        ubersicht = document.getElementById('normal').children[0]
     }
     fetch(url)
         .then(response => {
@@ -43,7 +45,26 @@ $(document).ready(function() {
             return response.json()
         })
         .then(data => {
-            console.log(data)
+            klassen = ubersicht.children[0].children
+            for (let key in data) {
+                for (let i = 0; i < klassen.length; i++) {
+                    if (key == klassen[i].innerHTML) {
+                        for (let stunden of Object.values(data[key])) {
+                            info = Object.values(stunden)
+                            var stunde = ubersicht.children[info[0]].children[i]
+                            stunde.innerHTML = info[1].concat(' | ',info[2],' | ',info[3])
+                            if (info[4]) {
+                                stunde.classList.remove('normal')
+                                stunde.classList.add('ausfall')
+                            }else{
+                                stunde.classList.remove('normal')
+                                stunde.classList.add('vertretung')
+                            }
+                        }
+                        break
+                    }
+                }
+            }
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error)

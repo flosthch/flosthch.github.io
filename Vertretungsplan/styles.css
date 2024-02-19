@@ -33,6 +33,8 @@ h2 {
 }
 #normal th, td {
     border-radius: 5px;
+    height: 1em;
+    font-size: 1em;
     padding: 12.5px;
     border: 1px solid #ddd;
     text-align: center;
