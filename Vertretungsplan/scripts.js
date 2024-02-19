@@ -5,7 +5,6 @@ function hide_sidenav() {
     document.getElementById('sidenav').hidden = true
 }
 function open_selected(url) {
-    console.log(window.location.pathname.split("/").pop() == "index.html")
     if (url == "index.html") {
         if (window.location.pathname.split("/").pop() == "index.html") {
             window.open('./index.html','_self')
@@ -29,6 +28,26 @@ function auto_scroll(original_width) {
 }
 
 $(document).ready(function() {
+    var url
+    if (window.location.pathname.split("/").pop() == "index.html") {
+        url = './data.json'
+    }else {
+        url = '../data.json'
+    }
+    fetch(url)
+        .then(response => {
+            console.log(response)
+            if (!response.ok) {
+                throw new Error('Network response was not ok')
+            }
+            return response.json()
+        })
+        .then(data => {
+            console.log(data)
+        })
+        .catch(error => {
+            console.error('There was a problem with the fetch operation:', error)
+        })
     if (window.location.pathname.split("/").pop() == "index.html") {
         const original_table = document.getElementById("ubersicht")
         const original_width = original_table.scrollWidth

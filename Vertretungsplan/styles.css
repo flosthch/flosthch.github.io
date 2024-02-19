@@ -97,8 +97,8 @@ th {
     right: -50px;
 }
 .sidenav {
-    height: 100%;
-    width: 160px;
+    height: 100vh;
+    width: 50vw;
     position: fixed;
     border-right: 2px solid #000000;
     z-index: 1;
@@ -110,17 +110,50 @@ th {
     overflow: visible;
 }
 .button_sidenav {
-    height: 40px;
-    width: 140px;
+    height: calc(9vh - 20px);
+    width: calc(50vw - 20px);
     margin-left: 10px;
     margin-bottom: 10px;
-    font-size: 25px;
+    border-radius: 20px;
+    font-size: calc(7vh - 20px);
     text-decoration: none;
     text-align: center;
     color: #000000;
-    border-color: #000000;
-    background-color: #00000000;
+    border: 2px solid #000000;
+    background-color: #04aa6d7f;
 }
 .button_sidenav:hover {
+    background-color: #828282;
+}
+.button_sidenav_u {
+    height: calc(9vh - 20px);
+    width: calc(50vw - 20px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: calc(7vh - 20px);
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    border: 2px solid #000000;
+    background-color: #4a9eff7f;
+}
+.button_sidenav_u:hover {
+    background-color: #828282;
+}
+.button_sidenav_l {
+    height: calc(9vh - 20px);
+    width: calc(50vw - 20px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-size: calc(7vh - 20px);
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    border: 2px solid #000000;
+    background-color: #f2ff007f;
+}
+.button_sidenav_l:hover {
     background-color: #828282;
 }
