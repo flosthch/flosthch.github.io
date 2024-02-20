@@ -1,337 +1,215 @@
 {
     "10a": [
         [
-            5,
-            "Ges",
-            "EG51, EG52",
-            "Sch\u00f6",
+            "3",
+            "Phy",
+            "EG52",
+            "Ca",
             false
         ],
         [
-            6,
-            "Ges",
-            "EG51, EG52",
-            "Gol",
+            "4",
+            "Phy",
+            "EG52",
+            "Sei",
             false
         ]
     ],
     "10b": [
         [
-            5,
-            "Ges",
-            "EG51, EG52",
-            "Sch\u00f6",
+            "3",
+            "Phy",
+            "EG52",
+            "Ca",
             false
         ],
         [
-            6,
-            "Ges",
-            "EG51, EG52",
-            "Gol",
+            "4",
+            "Phy",
+            "EG52",
+            "Sei",
             false
         ]
     ],
     "10c": [
         [
-            5,
-            "Ges",
-            "EG51, EG52",
-            "Sch\u00f6",
+            "3",
+            "Phy",
+            "EG52",
+            "Ca",
             false
         ],
         [
-            6,
-            "Ges",
-            "EG51, EG52",
-            "Gol",
+            "4",
+            "Phy",
+            "EG52",
+            "Sei",
             false
         ]
     ],
     "10d": [
         [
-            5,
-            "Ges",
-            "EG51, EG52",
-            "Sch\u00f6",
+            "3",
+            "Phy",
+            "EG52",
+            "Ca",
             false
         ],
         [
-            6,
-            "Ges",
-            "EG51, EG52",
-            "Gol",
-            false
-        ]
-    ],
-    "5c": [
-        [
-            1,
-            "BKu",
-            "Kun3",
-            "Gi",
-            true
-        ],
-        [
-            2,
-            "BKu",
-            "Kun3",
-            "Gi",
-            true
-        ],
-        [
-            3,
-            "Rel",
-            "OG11",
-            "Bm",
-            true
-        ],
-        [
-            4,
-            "Rel",
-            "OG11",
-            "Bm",
-            true
-        ],
-        [
-            5,
-            "KStd",
-            "OG11",
-            "Gi",
-            true
-        ],
-        [
-            6,
-            "Lat",
-            "OG11",
-            "Wr",
-            true
-        ]
-    ],
-    "6b": [
-        [
-            8,
-            "Ges",
-            "OG32",
-            "My",
-            true
-        ],
-        [
-            9,
-            "Ges",
-            "OG32",
-            "My",
-            true
-        ]
-    ],
-    "7a": [
-        [
-            1,
-            "Chor",
-            "Mus1",
-            "Sn",
-            true
-        ],
-        [
-            3,
-            "Phil",
-            "OG23",
-            "Re",
+            "4",
+            "Phy",
+            "EG52",
+            "Sei",
             false
         ],
         [
-            4,
-            "Phil",
-            "OG23",
-            "Re",
+            "6",
+            "Rus",
+            "OG58",
+            "Kna",
             false
         ]
     ],
-    "7b": [
+    "5f": [
         [
-            1,
-            "Chor",
-            "Mus1",
-            "Sn",
-            true
-        ]
-    ],
-    "7c": [
-        [
-            1,
-            "Chor",
-            "Mus1",
-            "Sn",
-            true
-        ]
-    ],
-    "7d": [
-        [
-            1,
-            "Chor",
-            "Mus1",
-            "Sn",
-            true
-        ],
-        [
-            4,
-            "Ges",
-            "OG34",
-            "vB",
-            false
-        ],
-        [
-            5,
-            "Ges",
-            "OG34",
-            "Ge",
-            false
-        ],
-        [
-            8,
-            "PGW",
-            "OG34",
-            "Sie",
-            true
-        ],
-        [
-            9,
-            "PGW",
-            "OG34",
-            "Sie",
-            true
-        ]
-    ],
-    "7e": [
-        [
-            1,
-            "Chor",
-            "Mus1",
-            "Sn",
-            true
-        ],
-        [
-            6,
+            "3",
             "Deu",
-            "OG26",
-            "Sv",
+            "OG24",
+            "Hei",
+            false
+        ],
+        [
+            "4",
+            "Deu",
+            "Kun1",
+            "Sh",
+            false
+        ]
+    ],
+    "6a": [
+        [
+            "1",
+            "Eng",
+            "OG31",
+            "Ko",
+            false
+        ],
+        [
+            "2",
+            "Eng",
+            "OG31",
+            "B\u00fc",
+            false
+        ]
+    ],
+    "6g": [
+        [
+            "5",
+            "PGW",
+            "OG56",
+            "Wr",
+            false
+        ],
+        [
+            "6",
+            "PGW",
+            "OG56",
+            "Hu",
             false
         ]
     ],
     "7g": [
         [
-            1,
-            "Chor",
-            "Mus1",
-            "Sn",
-            true
-        ]
-    ],
-    "9a": [
-        [
-            8,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
+            "5",
+            "PGW",
+            "OG56",
+            "Wr",
+            false
         ],
         [
-            9,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
+            "6",
+            "PGW",
+            "OG56",
+            "Hu",
+            false
+        ]
+    ],
+    "8b": [
+        [
+            "1",
+            "Eng",
+            "OG52",
+            "Fre",
+            false
+        ],
+        [
+            "2",
+            "Eng",
+            "OG52",
+            "Oh",
+            false
+        ]
+    ],
+    "8e": [
+        [
+            "1",
+            "Phy",
+            "Phy2",
+            "---",
+            false
+        ],
+        [
+            "2",
+            "Phy",
+            "Che1",
+            "Whs",
+            false
+        ],
+        [
+            "5",
+            "Mat",
+            "OG43",
+            "Ms",
+            false
+        ]
+    ],
+    "8f": [
+        [
+            "5",
+            "Ges",
+            "OG36",
+            "Pts",
+            false
+        ],
+        [
+            "6",
+            "Ges",
+            "Aula",
+            "Daus",
+            false
         ]
     ],
     "9b": [
         [
-            1,
-            "Eng",
-            "OG42",
-            "Ki",
+            "3",
+            "Mat",
+            "",
+            "Re",
             false
         ],
         [
-            2,
-            "Eng",
+            "3",
+            "Mat",
             "OG42",
-            "Gol",
-            false
+            "Hei",
+            true
         ],
         [
-            4,
-            "PGW",
+            "4",
+            "Deu",
             "OG42",
-            "Bm",
+            "Hm",
             false
-        ],
-        [
-            5,
-            "PGW",
-            "OG42",
-            "Bm",
-            false
-        ],
-        [
-            8,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
-        ],
-        [
-            9,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
-        ]
-    ],
-    "9c": [
-        [
-            8,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
-        ],
-        [
-            9,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
-        ]
-    ],
-    "9d": [
-        [
-            8,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
-        ],
-        [
-            9,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
-        ]
-    ],
-    "9e": [
-        [
-            8,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
-        ],
-        [
-            9,
-            "Phil",
-            "OG41",
-            "Gi",
-            true
         ]
     ]
 }
