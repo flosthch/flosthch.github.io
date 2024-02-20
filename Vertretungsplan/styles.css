@@ -10,6 +10,10 @@ h2 {
     font-size: 30px;
     text-align: center;
     text-decoration-line: underline;
+    margin-bottom: 0px;
+}
+p {
+    text-align: center;
 }
 /*Generelle Tabelleneinstellung*/
 #ubersicht {

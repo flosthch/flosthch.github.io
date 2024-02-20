@@ -45,11 +45,12 @@ $(document).ready(function() {
             return response.json()
         })
         .then(data => {
+            document.getElementById('date').innerHTML = data[0]
             klassen = ubersicht.children[0].children
-            for (let key in data) {
+            for (let key in data[1]) {
                 for (let i = 0; i < klassen.length; i++) {
                     if (key == klassen[i].innerHTML) {
-                        for (let stunden of Object.values(data[key])) {
+                        for (let stunden of Object.values(data[1][key])) {
                             info = Object.values(stunden)
                             var stunde = ubersicht.children[info[0]].children[i]
                             stunde.innerHTML = info[1].concat(' | ',info[2],' | ',info[3])
