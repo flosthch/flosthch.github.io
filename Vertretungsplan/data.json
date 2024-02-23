@@ -1,307 +1,94 @@
 [
-    "22.02.2024 07:11:02",
+    "23.02.2024 07:31:17",
     {
-        "10a": [
-            [
-                8,
-                "PGW",
-                "EG51",
-                "---",
-                false
-            ],
-            [
-                9,
-                "PGW",
-                "EG51",
-                "---",
-                false
-            ]
-        ],
-        "10b": [
-            [
-                3,
-                "PGW",
-                "EG52",
-                "Eck",
-                false
-            ],
-            [
-                4,
-                "PGW",
-                "EG52",
-                "Eh",
-                false
-            ]
-        ],
-        "10c": [
-            [
-                1,
-                "Sp",
-                "Sp1",
-                "Pk",
-                true
-            ],
-            [
-                2,
-                "Sp",
-                "Sp1",
-                "Frd",
-                false
-            ]
-        ],
-        "10d": [
-            [
-                8,
-                "Rus",
-                "OG58",
-                "Bas",
-                true
-            ],
-            [
-                9,
-                "Rus",
-                "OG58",
-                "Bas",
-                true
-            ]
-        ],
-        "5c": [
-            [
-                2,
-                "Lat",
-                "OG11",
-                "Swn",
-                false
-            ]
-        ],
         "5f": [
             [
-                5,
-                "Mus",
-                "Mus1",
-                "Sn",
-                false
+                1,
+                "Deu",
+                "OG24",
+                "Sie",
+                true
             ],
             [
-                6,
-                "Mus",
-                "Kun1",
-                "Sh",
+                2,
+                "Deu",
+                "OG24",
+                "He",
                 false
             ]
         ],
-        "6a": [
+        "6b": [
             [
-                6,
-                "Lat",
-                "OG31",
-                "Pr",
+                5,
+                "Mat",
+                "OG32",
+                "vB",
                 false
             ]
         ],
         "6d": [
             [
-                1,
-                "Geo",
-                "OG35",
-                "---",
-                false
-            ],
-            [
                 2,
-                "Geo",
+                "Lat",
                 "OG35",
-                "B\u00e4r",
+                "Sch\u00f6",
                 false
             ]
         ],
-        "6g": [
+        "7a": [
             [
-                3,
-                "NaWi",
-                "OG56",
-                "Lv",
-                false
-            ],
-            [
-                4,
-                "NaWi",
-                "Che1",
-                "Ka",
+                6,
+                "Lat",
+                "OG23",
+                "Gra",
                 false
             ]
         ],
         "7b": [
             [
-                1,
-                "PGW",
-                "OG27",
-                "---",
-                false
-            ],
-            [
-                2,
-                "PGW",
-                "OG27",
-                "Sch\u00f6",
-                false
-            ]
-        ],
-        "7c": [
-            [
-                8,
+                3,
                 "Ges",
-                "OG25",
-                "---",
-                false
-            ],
-            [
-                9,
-                "Ges",
-                "OG25",
-                "---",
-                false
-            ]
-        ],
-        "7g": [
-            [
-                3,
-                "NaWi",
-                "OG56",
-                "Lv",
-                false
-            ],
-            [
-                4,
-                "NaWi",
-                "Che1",
-                "Ka",
-                false
-            ]
-        ],
-        "8b": [
-            [
-                8,
-                "Phy",
-                "Phy1",
-                "Zim",
-                true
-            ],
-            [
-                9,
-                "Phy",
-                "Phy1",
-                "Zim",
-                true
-            ]
-        ],
-        "8c": [
-            [
-                3,
-                "Geo",
-                "OG53",
-                "La",
-                false
-            ],
-            [
-                4,
-                "Geo",
-                "OG53",
-                "L\u00fc",
-                false
-            ]
-        ],
-        "8d": [
-            [
-                1,
-                "Rus",
-                "OG37",
-                "---",
-                false
-            ],
-            [
-                3,
-                "Lat",
-                "OG37",
-                "Ort",
-                false
-            ],
-            [
-                4,
-                "Lat",
-                "OG37",
-                "Gol",
-                false
-            ]
-        ],
-        "8e": [
-            [
-                8,
-                "Mus",
-                "Mus2",
-                "Ho",
-                true
-            ],
-            [
-                9,
-                "Mus",
-                "Mus2",
-                "Ho",
-                true
-            ]
-        ],
-        "9a": [
-            [
-                5,
-                "Bio",
-                "OG48",
-                "Bu",
-                false
-            ],
-            [
-                6,
-                "Bio",
-                "OG48",
-                "Fe",
-                false
-            ]
-        ],
-        "9b": [
-            [
-                1,
-                "Che",
-                "Che1",
-                "Bs",
-                false
-            ],
-            [
-                2,
-                "Che",
-                "Che1",
+                "OG27",
                 "Mil",
                 false
             ],
             [
-                5,
-                "Eng",
-                "OG42",
-                "Hth",
+                4,
+                "Ges",
+                "OG27",
+                "Bey",
                 false
             ]
         ],
-        "9c": [
+        "9d": [
             [
-                3,
-                "Gri",
-                "OG41",
-                "Pi",
+                1,
+                "Sp",
+                "Sp3",
+                "Oh",
+                true
+            ],
+            [
+                2,
+                "Sp",
+                "OG55",
+                "Fb",
+                false
+            ]
+        ],
+        "9e": [
+            [
+                5,
+                "Ges",
+                "OG59",
+                "Ull",
                 false
             ],
             [
-                3,
-                "Rus",
-                "OG41",
-                "Pi",
+                6,
+                "Ges",
+                "OG59",
+                "Gb",
                 false
             ]
         ]
