@@ -1,94 +1,156 @@
 [
-    "26.02.2024 09:19:56",
+    "26.02.2024 09:20:19",
     {
-        "5f": [
-            [
-                1,
-                "Deu",
-                "OG24",
-                "Sie",
-                true
-            ],
-            [
-                2,
-                "Deu",
-                "OG24",
-                "He",
-                false
-            ]
-        ],
-        "6b": [
-            [
-                5,
-                "Mat",
-                "OG32",
-                "vB",
-                false
-            ]
-        ],
-        "6d": [
-            [
-                2,
-                "Lat",
-                "OG35",
-                "Sch\u00f6",
-                false
-            ]
-        ],
-        "7a": [
-            [
-                6,
-                "Lat",
-                "OG23",
-                "Gra",
-                false
-            ]
-        ],
-        "7b": [
+        "10a": [
             [
                 3,
-                "Ges",
-                "OG27",
-                "Mil",
+                "Inf",
+                "OG44",
+                "My",
                 false
             ],
             [
                 4,
-                "Ges",
-                "OG27",
-                "Bey",
-                false
-            ]
-        ],
-        "9d": [
-            [
-                1,
-                "Sp",
-                "Sp3",
-                "Oh",
-                true
-            ],
-            [
-                2,
-                "Sp",
-                "OG55",
-                "Fb",
-                false
-            ]
-        ],
-        "9e": [
-            [
-                5,
-                "Ges",
-                "OG59",
-                "Ull",
+                "Inf",
+                "OG44",
+                "Sh",
                 false
             ],
             [
                 6,
-                "Ges",
+                "Lat",
+                "EG51",
+                "Ca",
+                false
+            ]
+        ],
+        "10b": [
+            [
+                3,
+                "Inf",
+                "OG44",
+                "My",
+                false
+            ],
+            [
+                4,
+                "Inf",
+                "OG44",
+                "Sh",
+                false
+            ]
+        ],
+        "10c": [
+            [
+                3,
+                "Inf",
+                "OG44",
+                "My",
+                false
+            ],
+            [
+                4,
+                "Inf",
+                "OG44",
+                "Sh",
+                false
+            ]
+        ],
+        "10d": [
+            [
+                3,
+                "Inf",
+                "OG44",
+                "My",
+                false
+            ],
+            [
+                4,
+                "Inf",
+                "OG44",
+                "Sh",
+                false
+            ],
+            [
+                6,
+                "Rus",
+                "OG58",
+                "Kna",
+                false
+            ]
+        ],
+        "5a": [
+            [
+                3,
+                "NaWi",
+                "OG14",
+                "May",
+                false
+            ]
+        ],
+        "6a": [
+            [
+                5,
+                "Sp",
+                "OG31",
+                "Wr",
+                false
+            ],
+            [
+                6,
+                "Sp",
+                "OG31",
+                "Bu",
+                false
+            ]
+        ],
+        "8b": [
+            [
+                2,
+                "Eng",
+                "OG52",
+                "Oh",
+                false
+            ]
+        ],
+        "8c": [
+            [
+                3,
+                "Gri",
+                "OG53",
+                "Fb",
+                false
+            ],
+            [
+                4,
+                "Gri",
+                "OG53",
+                "Hm",
+                false
+            ]
+        ],
+        "9b": [
+            [
+                3,
+                "Mat",
+                "OG42",
+                "Hei, Re",
+                false
+            ],
+            [
+                3,
+                "Mat",
+                "OG42",
+                "Hei",
+                true
+            ]
+        ],
+        "9e": [
+            [
+                2,
+                "Sp",
                 "OG59",
-                "Gb",
+                "Whs",
                 false
             ]
         ]
