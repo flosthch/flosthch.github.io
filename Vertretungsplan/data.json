@@ -1,107 +1,84 @@
 [
-    "26.02.2024 09:20:19",
+    "27.02.2024 16:32:12",
     {
-        "10a": [
-            [
-                3,
-                "Inf",
-                "OG44",
-                "My",
-                false
-            ],
-            [
-                4,
-                "Inf",
-                "OG44",
-                "Sh",
-                false
-            ],
-            [
-                6,
-                "Lat",
-                "EG51",
-                "Ca",
-                false
-            ]
-        ],
-        "10b": [
-            [
-                3,
-                "Inf",
-                "OG44",
-                "My",
-                false
-            ],
-            [
-                4,
-                "Inf",
-                "OG44",
-                "Sh",
-                false
-            ]
-        ],
         "10c": [
             [
-                3,
-                "Inf",
-                "OG44",
-                "My",
-                false
-            ],
-            [
                 4,
-                "Inf",
-                "OG44",
-                "Sh",
+                "Mat",
+                "OG57",
+                "Ka",
                 false
             ]
         ],
         "10d": [
             [
+                2,
+                "Mat",
+                "OG58",
+                "L\u00fc",
+                false
+            ],
+            [
                 3,
-                "Inf",
-                "OG44",
-                "My",
+                "Rus",
+                "OG58",
+                "Lv",
+                false
+            ]
+        ],
+        "5b": [
+            [
+                3,
+                "Mat",
+                "OG12",
+                "Sei",
+                false
+            ]
+        ],
+        "6d": [
+            [
+                3,
+                "Mat",
+                "OG35",
+                "La",
                 false
             ],
             [
                 4,
-                "Inf",
-                "OG44",
-                "Sh",
-                false
-            ],
-            [
-                6,
-                "Rus",
-                "OG58",
-                "Kna",
+                "Mat",
+                "OG35",
+                "Ki",
                 false
             ]
         ],
-        "5a": [
+        "8a": [
+            [
+                1,
+                "Che",
+                "Che1",
+                "Whs",
+                true
+            ],
+            [
+                2,
+                "Che",
+                "Che1",
+                "Whs",
+                true
+            ],
             [
                 3,
-                "NaWi",
-                "OG14",
-                "May",
-                false
-            ]
-        ],
-        "6a": [
-            [
-                5,
-                "Sp",
-                "OG31",
-                "Wr",
-                false
+                "Lat",
+                "OG51",
+                "Ki",
+                true
             ],
             [
-                6,
-                "Sp",
-                "OG31",
-                "Bu",
-                false
+                4,
+                "Lat",
+                "OG51",
+                "Ki",
+                true
             ]
         ],
         "8b": [
@@ -109,49 +86,56 @@
                 2,
                 "Eng",
                 "OG52",
-                "Oh",
+                "Ho",
                 false
             ]
         ],
         "8c": [
             [
-                3,
-                "Gri",
+                5,
+                "Mat",
                 "OG53",
-                "Fb",
+                "He",
                 false
             ],
             [
-                4,
-                "Gri",
+                6,
+                "Mat",
                 "OG53",
-                "Hm",
+                "Hu",
                 false
             ]
         ],
         "9b": [
             [
-                3,
+                5,
                 "Mat",
                 "OG42",
-                "Hei, Re",
+                "Re",
                 false
             ],
             [
-                3,
+                6,
                 "Mat",
                 "OG42",
-                "Hei",
-                true
+                "Re",
+                false
             ]
         ],
-        "9e": [
+        "9c": [
             [
-                2,
-                "Sp",
-                "OG59",
-                "Whs",
+                5,
+                "Che",
+                "Che2",
+                "Gol",
                 false
+            ],
+            [
+                6,
+                "Che",
+                "Che2",
+                "Whs",
+                true
             ]
         ]
     }
