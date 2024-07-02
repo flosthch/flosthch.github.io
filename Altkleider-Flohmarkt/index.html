@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Altkleider-Flohmarkt</title>
     <style>
+        html{
+            height: 100%;
+        }
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
         }
         .header {
             background-color: #4CAF50;
@@ -18,9 +24,11 @@
             align-items: center;
             justify-content: space-between;
             padding: 1rem;
+            top: 0;
+            z-index: 1000;
         }
         .header img {
-            height: 6rem;
+            height: 5rem;
             margin-right: 1rem;
         }
         .header h1 {
@@ -38,16 +46,20 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             display: flex;
             align-items: center;
+            justify-content: space-between;
         }
         .section-content {
             flex-grow: 1;
         }
         .section img {
-            height: 100px;
-            width: 100px;
+            height: auto;
+            width: auto;
             object-fit: cover;
             margin-left: 1rem;
             border-radius: 8px;
+            flex-shrink: 0;
+            object-fit: contain;
+            max-height: 10rem;
         }
         .section h2 {
             margin-top: 0;
@@ -57,9 +69,8 @@
             padding: 1rem;
             background-color: #4CAF50;
             color: white;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: auto;
+            margin-bottom: 0;
         }
         @media (max-width: 600px) {
             .section {
@@ -83,7 +94,7 @@
 </head>
 <body>
     <div class="header">
-        <img src="./img/Logo.png" alt="Schullogo">
+        <img src="./img/Logo2.png" alt="Schullogo">
         <h1>Altkleider-Flohmarkt</h1>
     </div>
     <div class="container">
@@ -92,7 +103,7 @@
                 <h2>Über den Flohmarkt</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Suspendisse consequat erat mauris, at interdum ligula faucibus at.<br> Aliquam tempor, dolor eget dictum hendrerit, quam sem mattis ex, quis aliquet nibh quam quis nunc.</p>
             </div>
-            <img src="./img/Logo.png" alt="Bild über Flohmarkt">
+            <img src="./img/lms.jpg" alt="Bild über Flohmarkt">
         </div>
         <div class="section">
             <div class="section-content">
