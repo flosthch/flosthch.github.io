@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate WP10 Distribution</title>
+</head>
+<body>
+    <h1>Calculate WP10 Distribution (MINT-Subjects)</h1>
+    <h3>Warning: Fast computer needed! May take a few minutes.</h3>
+    <p>A valid solution is formatted: <br>[List of A-subjects] [List of all subjects, sorted: Bio, Che, Phy]</p>
+    <p>The best valid solution is the last valid solution outputted.</p>
+    <p>(Source code at https://github.com/flosthch/flosthch.github.io/blob/master/WP10/index.html)</p>
+    <h3>Input:</h3>
+    <p>
+        Bio_Che: <input type="text" id="bioChe" value="77">
+        Bio_Phy: <input type="text" id="bioPhy" value="36">
+        Phy_Che: <input type="text" id="phyChe" value="8">
+    </p>
+    <button onclick="runScript()"><h2>Calculate</h2></button>
+    <h3>Output:</h3>
+    <pre id="output"></pre>
+    <pre id="error"></pre>
+
+    <script>
+        function runScript() {
+            // Get input values and validate
+            const bioCheInput = document.getElementById('bioChe').value;
+            const bioPhyInput = document.getElementById('bioPhy').value;
+            const phyCheInput = document.getElementById('phyChe').value;
+
+            // Clear previous error messages
+            document.getElementById('error').innerText = '';
+
+            // Check if inputs are integers
+            if (!Number.isInteger(Number(bioCheInput)) || !Number.isInteger(Number(bioPhyInput)) || !Number.isInteger(Number(phyCheInput))) {
+                document.getElementById('error').innerText = 'Inputs must be integers!';
+                return;
+            }
+
+            // Parse inputs to integers
+            const Bio_Che = parseInt(bioCheInput);
+            const Bio_Phy = parseInt(bioPhyInput);
+            const Phy_Che = parseInt(phyCheInput);
+
+            // Vars
+            const bio = Bio_Che + Bio_Phy;
+            const che = Bio_Che + Phy_Che;
+            const phy = Phy_Che + Bio_Phy;
+            const total = Bio_Che + Phy_Che + Bio_Phy;
+
+            const kBio = Math.ceil(bio / 30);
+            const kChe = Math.ceil(che / 30);
+            const kPhy = Math.ceil(phy / 30);
+            const kTotal = kBio + kChe + kPhy;
+
+            const startBio = Math.floor(bio / kBio);
+            const startChe = Math.floor(che / kChe);
+            const startPhy = Math.floor(phy / kPhy);
+
+            const globalVars = { bestScore: 99, cTotal: 0 };
+
+            const tempLimit = 4;
+
+            // Utility to generate combinations
+            function combinations(arr, k) {
+                let result = [];
+                const f = (prefix, start) => {
+                    if (prefix.length === k) {
+                        result.push(prefix);
+                        return;
+                    }
+                    for (let i = start; i < arr.length; i++) {
+                        f(prefix.concat(arr[i]), i + 1);
+                    }
+                };
+                f([], 0);
+                return result;
+            }
+
+            // Check Sum Function
+            function checkSum(arr) {
+                if (arr.length !== kTotal) {
+                    throw new Error(`The array must contain exactly ${kTotal} elements!`);
+                }
+
+                const allCombs = [];
+                for (let i = 1; i <= arr.length; i++) {
+                    allCombs.push(...combinations(arr, i));
+                }
+
+                for (let comb of allCombs) {
+                    if (comb.reduce((a, b) => a + b, 0) === total) {
+                        let score = 0;
+                        const a = arr.slice(0, kBio).sort((x, y) => x - y);
+                        const x = a[a.length - 1] - a[0];
+                        if (x > score) score = x;
+
+                        const b = arr.slice(kBio, kBio + kChe).sort((x, y) => x - y);
+                        const y = b[b.length - 1] - b[0];
+                        if (y > score) score = y;
+
+                        const c = arr.slice(kBio + kChe, kBio + kChe + kPhy).sort((x, y) => x - y);
+                        const z = c[c.length - 1] - c[0];
+                        if (z > score) score = z;
+
+                        if (score < globalVars.bestScore) {
+                            globalVars.bestScore = score;
+                            return comb;
+                        }
+                    }
+                }
+                return false;
+            }
+
+            // Append to Array Function
+            function appendToArr(arr, b, c, p, sVar) {
+                if (b !== 0) {
+                    for (let j = startBio - sVar; j <= startBio + sVar; j++) {
+                        appendToArr([...arr, j], b - 1, c, p, sVar);
+                    }
+                } else if (c !== 0) {
+                    for (let j = startChe - sVar; j <= startChe + sVar; j++) {
+                        appendToArr([...arr, j], b, c - 1, p, sVar);
+                    }
+                } else if (p !== 0) {
+                    for (let j = startPhy - sVar; j <= startPhy + sVar; j++) {
+                        appendToArr([...arr, j], b, c, p - 1, sVar);
+                    }
+                } else {
+                    if (arr.slice(0, kBio).reduce((a, b) => a + b, 0) === bio &&
+                        arr.slice(kBio, kBio + kChe).reduce((a, b) => a + b, 0) === che &&
+                        arr.slice(kBio + kChe, kBio + kChe + kPhy).reduce((a, b) => a + b, 0) === phy) {
+                        globalVars.cTotal++;
+                        const comb = checkSum(arr);
+                        if (comb) {
+                            console.log(comb, arr);
+                            outputElement.innerHTML += `${JSON.stringify(comb)} ${JSON.stringify(arr)}<br>`;
+                        }
+                    }
+                }
+            }
+
+            // Main logic
+            const outputElement = document.getElementById("output");
+            outputElement.innerHTML = `Total courses: ${kTotal} [Bio: ${kBio}, Che: ${kChe}, Phy: ${kPhy}]<br>`; // Clear previous output + course distribution
+
+            for (let sVar = 0; sVar < tempLimit; sVar++) {
+                globalVars.cTotal = 0;
+                appendToArr([], kBio, kChe, kPhy, sVar);
+                console.log(sVar, globalVars.cTotal, globalVars.bestScore);
+                outputElement.innerHTML += `Test No. ${sVar}, possibilities: ${globalVars.cTotal}, minimum difference found: ${globalVars.bestScore}<br>`;
+                if (globalVars.bestScore !== 99) {
+                    break;
+                }
+            }
+        }
+    </script>
+</body>
+</html>
