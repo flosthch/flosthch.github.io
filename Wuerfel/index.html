@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Simulation</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Style for the buttons */
+        .control-buttons {
+            margin: 20px;
+        }
+
+        .control-buttons button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            border-radius: 10px;
+            margin: 5px;
+        }
+
+        .control-buttons button:hover {
+            background-color: #45a049;
+        }
+
+        /* Style for the dice image */
+        #dice-result img {
+            width: 100px;
+            height: 100px;
+        }
+
+        /* Style for the charts container */
+        .charts-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .chart-wrapper {
+            flex-grow: 1;
+            margin: 10px;
+            max-width: 50%;
+            min-width: 400px;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dice Roll Simulation</h1>
+
+    <!-- Buttons -->
+    <div class="control-buttons">
+        <button id="roll-once-btn" onclick="rollDice()">Roll Dice Once</button>
+        <button id="start-auto-btn" onclick="startAutoRoll()">Start Auto Roll</button>
+        <button id="stop-auto-btn" onclick="stopAutoRoll()" style="display: none; background-color: #a04545;">Stop Auto Roll</button>
+    </div>
+
+    <!-- Dice Result -->
+    <p>Dice Result:</p>
+    <div id="dice-result">
+        <img src="./img/1.png" alt="Dice face">
+    </div>
+
+    <!-- Charts side by side -->
+    <div class="charts-container">
+        <!-- Bar Graph (Occurrences of 1-6) -->
+        <div class="chart-wrapper">
+            <h3>Absolute Occurrences of 1-6</h3>
+            <canvas id="barChart"></canvas>
+        </div>
+
+        <!-- Line Graph (Relative Probability of rolling a 6) -->
+        <div class="chart-wrapper">
+            <h3>Relative Probability of a 6 After Each Throw</h3>
+            <canvas id="lineChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        let diceOccurrences = [0, 0, 0, 0, 0, 0]; // For occurrences of 1-6
+        let totalRolls = 0; // Total number of rolls
+        let sixProbabilities = []; // Array for relative probabilities of rolling a 6
+        const diceResultElement = document.getElementById('dice-result');
+        let rollingInterval; // Interval for auto-roll
+
+        // Dice rolling function
+        function rollDice() {
+            const result = Math.floor(Math.random() * 6) + 1;
+
+            // Display corresponding dice face image
+            diceResultElement.innerHTML = `<img src="./img/${result}.png" alt="Dice face">`;
+
+            totalRolls++;
+            diceOccurrences[result - 1]++;
+
+            // Update Bar and Line Charts
+            updateBarChart();
+            updateLineChart();
+        }
+
+        // Bar Chart for Occurrences
+        const barCtx = document.getElementById('barChart').getContext('2d');
+        const barChart = new Chart(barCtx, {
+            type: 'bar',
+            data: {
+                labels: ['1', '2', '3', '4', '5', '6'],
+                datasets: [{
+                    label: 'Occurrences',
+                    data: diceOccurrences,
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        function updateBarChart() {
+            barChart.data.datasets[0].data = diceOccurrences;
+            barChart.update();
+        }
+
+        // Line Chart for Probability of 6
+        const lineCtx = document.getElementById('lineChart').getContext('2d');
+        const lineChart = new Chart(lineCtx, {
+            type: 'line',
+            data: {
+                labels: [],
+                datasets: [{
+                    label: 'Probability of rolling a 6',
+                    data: sixProbabilities,
+                    fill: false,
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    tension: 0.1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 1
+                    }
+                }
+            }
+        });
+
+        function updateLineChart() {
+            const probOfSix = diceOccurrences[5] / totalRolls;
+            sixProbabilities.push(probOfSix);
+            lineChart.data.labels.push(totalRolls);
+            lineChart.update();
+        }
+
+        // Auto Roll Functionality
+        function startAutoRoll() {
+            // Hide start button and show stop button
+            document.getElementById('start-auto-btn').style.display = 'none';
+            document.getElementById('stop-auto-btn').style.display = 'inline-block';
+
+            rollingInterval = setInterval(rollDice, 1); // Rolls dice every second
+        }
+
+        function stopAutoRoll() {
+            clearInterval(rollingInterval);
+
+            // Show start button and hide stop button
+            document.getElementById('start-auto-btn').style.display = 'inline-block';
+            document.getElementById('stop-auto-btn').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

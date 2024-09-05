@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html, body, iframe{
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            border: none;
+            margin: 0;
+        }
+    </style>
+    <script>
+        function runScript() {
+            document.body.innerHTML = `<iframe src="${document.getElementById('gotopage').value}"></iframe>`
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="gotopage" value="https://web.whatsapp.com">
+    <button onclick="runScript()">Go!</button>
+</body>
