@@ -38,7 +38,7 @@ function showQuestion() {
   
   quizContainer.style.display = 'block';
   quizContainer.innerHTML = `
-    <button onclick="goBackToTopics()">Back to Topics</button>
+    <button onclick="goBackToTopics()">Zurück zur Übersicht</button>
     <div class="progress-bar">
         <div class="progress-bar-fill"></div>
     </div>
