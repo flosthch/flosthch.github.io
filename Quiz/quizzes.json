@@ -1,0 +1,82 @@
+{
+    "Deklaration und Initialisierung von Variablen": [
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ meinName; <br>meinName = \"ChatGPT\";",
+        "answers": ["string", "int", "float", "boolean"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ besterLehrerIstGrabbe; <br>besterLehrerIstGrabbe = true;",
+        "answers": ["boolean", "string", "int", "float"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ piMalDaumen; <br>piMalDaumen = 3.14159;",
+        "answers": ["float", "boolean", "string", "int"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ lieblingsTag; <br>lieblingsTag = \"Freitag\";",
+        "answers": ["string", "boolean", "int", "float"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ VerspätungDerDB; <br>VerspätungDerDB = 2147483648;",
+        "answers": ["int", "boolean", "string", "float"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ temperaturHeute; <br>temperaturHeute = -272.9;",
+        "answers": ["float", "boolean", "string", "int"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ meinCodeIstFehlerfrei; <br>meinCodeIstFehlerfrei = false;",
+        "answers": ["boolean", "string", "int", "float"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ lieblingsProgrammiersprache; <br>lieblingsProgrammiersprache = \"Python\";",
+        "answers": ["string", "boolean", "int", "float"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ deinIQ; <br>deinIQ = 200",
+        "answers": ["int", "boolean", "string", "float"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ mathearbeitNotendurchschnitt; <br>mathearbeitNotendurchschnitt = 6.0",
+        "answers": ["float", "string", "boolean", "int"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": " __ warscheinlichkeitRichtigZuAntworten; <br>warscheinlichkeitRichtigZuAntworten = 0.99;",
+        "answers": ["float", "boolean", "string", "int"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ uhrzeitJetzt; <br>uhrzeitJetzt = \"03:12\";",
+        "answers": ["string", "boolean", "int", "float"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ lichtgeschwindigkeit; <br>lichtgeschwindigkeit = 299792458",
+        "answers": ["int", "boolean", "string", "float"]
+      },
+      {
+        "quizTitle": "Um welchen Datentypen handelt es sich?",
+        "task": "__ energieLevel; <br>energieLevel = 0;",
+        "answers": ["int", "boolean", "string", "float"]
+      }
+    ],
+    "<i>kommt bald...</i>": [
+      {
+        "quizTitle": "Feedback",
+        "task": "Wie gut findest du diese Webseite?",
+        "answers": ["Ausgezeichnet!", "Hervorragend!", "Super!", "Gut!"]
+      }
+    ]
+  }
+  
