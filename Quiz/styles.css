@@ -59,15 +59,33 @@ button:disabled {
     display: none;
 }
 
+#quizContainer img{
+    max-width: 50%;
+    max-height: 10rem;
+    object-fit: contain;
+}
+
 .answers{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
 
 .answers button{
     width: 23%;
+}
+
+@media (max-width: 600px) {
+    #quizContainer img{
+        max-width: 100%;
+    }
+
+    .answers button {
+        width: 48%;  /* Make buttons take full width */
+        margin-bottom: 1rem;  /* Add spacing between buttons */
+    }
 }
 
 #nextButton {
@@ -88,4 +106,3 @@ button:disabled {
     background-color: #007BFF;
     border-radius: 5px;
 }
-  

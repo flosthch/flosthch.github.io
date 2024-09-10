@@ -2,73 +2,299 @@
     "Deklaration und Initialisierung von Variablen": [
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ meinName; <br>meinName = \"ChatGPT\";",
+        "task": "<pre>__ meinName; <br>meinName = \"ChatGPT\";</pre>",
         "answers": ["string", "int", "float", "boolean"]
-      },
+      }, 
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ besterLehrerIstGrabbe; <br>besterLehrerIstGrabbe = true;",
+        "task": "<pre>__ besterLehrerIstGrabbe; <br>besterLehrerIstGrabbe = true;</pre>",
         "answers": ["boolean", "string", "int", "float"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ piMalDaumen; <br>piMalDaumen = 3.14159;",
+        "task": "<pre>__ piMalDaumen; <br>piMalDaumen = 3.14159;</pre>",
         "answers": ["float", "boolean", "string", "int"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ lieblingsTag; <br>lieblingsTag = \"Freitag\";",
+        "task": "<pre>__ lieblingsTag; <br>lieblingsTag = \"Freitag\";</pre>",
         "answers": ["string", "boolean", "int", "float"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ VerspätungDerDB; <br>VerspätungDerDB = 2147483648;",
+        "task": "<pre>__ VerspätungDerDB; <br>VerspätungDerDB = 2147483648;</pre>",
         "answers": ["int", "boolean", "string", "float"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ temperaturHeute; <br>temperaturHeute = -272.9;",
-        "answers": ["float", "boolean", "string", "int"]
+        "task": "<pre>__ temperaturHeute; <br>temperaturHeute = -272;</pre>",
+        "answers": ["int", "float", "boolean", "string"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ meinCodeIstFehlerfrei; <br>meinCodeIstFehlerfrei = false;",
+        "task": "<pre>__ meinCodeIstFehlerfrei; <br>meinCodeIstFehlerfrei = false;</pre>",
         "answers": ["boolean", "string", "int", "float"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ lieblingsProgrammiersprache; <br>lieblingsProgrammiersprache = \"Python\";",
+        "task": "<pre>__ lieblingsProgrammiersprache; <br>lieblingsProgrammiersprache = \"Python\";</pre>",
         "answers": ["string", "boolean", "int", "float"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ deinIQ; <br>deinIQ = 200",
+        "task": "<pre>__ deinIQ; <br>deinIQ = 200;</pre>",
         "answers": ["int", "boolean", "string", "float"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ mathearbeitNotendurchschnitt; <br>mathearbeitNotendurchschnitt = 6.0",
+        "task": "<pre>__ mathearbeitNotendurchschnitt; <br>mathearbeitNotendurchschnitt = 6.0;</pre>",
         "answers": ["float", "string", "boolean", "int"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": " __ warscheinlichkeitRichtigZuAntworten; <br>warscheinlichkeitRichtigZuAntworten = 0.99;",
+        "task": "<pre>__ warscheinlichkeitRichtigZuAntworten; <br>warscheinlichkeitRichtigZuAntworten = 0.99;</pre>",
         "answers": ["float", "boolean", "string", "int"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ uhrzeitJetzt; <br>uhrzeitJetzt = \"03:12\";",
+        "task": "<pre>__ uhrzeitJetzt; <br>uhrzeitJetzt = \"03:12\";</pre>",
         "answers": ["string", "boolean", "int", "float"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ lichtgeschwindigkeit; <br>lichtgeschwindigkeit = 299792458",
+        "task": "<pre>__ lichtgeschwindigkeit; <br>lichtgeschwindigkeit = 299792458;</pre>",
         "answers": ["int", "boolean", "string", "float"]
       },
       {
         "quizTitle": "Um welchen Datentypen handelt es sich?",
-        "task": "__ energieLevel; <br>energieLevel = 0;",
+        "task": "<pre>__ energieLevel; <br>energieLevel = 0;</pre>",
         "answers": ["int", "boolean", "string", "float"]
+      }
+    ],
+    "Struktogramme lesen und verstehen": [
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/11.jpg'>",
+        "answers": ["Bedingung", "Anweisung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/12.jpg'>",
+        "answers": ["Bedingung", "Anweisung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/13.jpg'>",
+        "answers": ["Bedingung", "Anweisung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/14.jpg'>",
+        "answers": ["Bedingung", "Anweisung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/15.jpg'>",
+        "answers": ["Bedingung", "Anweisung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/16.jpg'>",
+        "answers": ["Bedingung", "Anweisung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/21.jpg'>",
+        "answers": ["Anweisung", "Bedingung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/22.jpg'>",
+        "answers": ["Anweisung", "Bedingung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/23.jpg'>",
+        "answers": ["Anweisung", "Bedingung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/24.jpg'>",
+        "answers": ["Anweisung", "Bedingung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/25.jpg'>",
+        "answers": ["Anweisung", "Bedingung", "Bedingungsschleife", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/31.jpg'>",
+        "answers": ["Bedingungsschleife", "Anweisung", "Bedingung", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/32.jpg'>",
+        "answers": ["Bedingungsschleife", "Anweisung", "Bedingung", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/33.jpg'>",
+        "answers": ["Bedingungsschleife", "Anweisung", "Bedingung", "Zählerschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/41.jpg'>",
+        "answers": ["Zählerschleife", "Anweisung", "Bedingung", "Bedingungsschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/42.jpg'>",
+        "answers": ["Zählerschleife", "Anweisung", "Bedingung", "Bedingungsschleife"]
+      },
+      {
+        "quizTitle": "Um welches Grundelemente handelt es sich?",
+        "task": "<img src='./img/Struktogramme1/43.jpg'>",
+        "answers": ["Zählerschleife", "Anweisung", "Bedingung", "Bedingungsschleife"]
+      }
+    ],
+    "Struktogramme nachvollziehen (Mathe)": [
+      {
+        "quizTitle": "Welchen Wert gibt das Programm aus?",
+        "task": "<img src='./img/Struktogramme2/1.jpg'><br>Die Eingabe beträgt 2",
+        "answers": ["12.56", "9.42", "6.28", "15.7"]
+      },
+      {
+        "quizTitle": "Welchen Wert gibt das Programm aus?",
+        "task": "<img src='./img/Struktogramme2/2.jpg'>",
+        "answers": ["15", "8", "21", "2"]
+      },
+      {
+        "quizTitle": "Welchen Wert gibt das Programm aus?",
+        "task": "<img src='./img/Struktogramme2/3.jpg'>",
+        "answers": ["14", "41", "4", "141"]
+      },
+      {
+        "quizTitle": "Welchen Wert gibt das Programm aus?",
+        "task": "<img src='./img/Struktogramme2/4.jpg'>",
+        "answers": ["16", "12", "5", "20"]
+      },
+      {
+        "quizTitle": "Welchen Wert gibt das Programm aus?",
+        "task": "<img src='./img/Struktogramme2/5.jpg'>",
+        "answers": ["5050", "55", "505", "50505"]
+      },
+      {
+        "quizTitle": "Welchen Wert gibt das Programm aus?",
+        "task": "<img src='./img/Struktogramme2/6.jpg'>",
+        "answers": ["15", "6", "10", "21"]
+      },
+      {
+        "quizTitle": "Welchen Wert gibt das Programm aus?",
+        "task": "<img src='./img/Struktogramme2/7.jpg'>",
+        "answers": ["12", "9", "3", "6"]
+      },
+      {
+        "quizTitle": "Welchen Wert gibt das Programm aus?",
+        "task": "<img src='./img/Struktogramme2/8.jpg'>",
+        "answers": ["9", "6", "4", "15"]
+      }
+    ],
+    "Das EVA-Prinzip erkennen und bestimmen": [
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>import dokument</pre>",
+        "answers": ["Eingabe", "Verarbeitung", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>password = input(\"Password: \")</pre>",
+        "answers": ["Eingabe", "Verarbeitung", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>zahl1 = input(\"Zahl1 = \") <br>zahl2 = input(\"Zahl1 = \")</pre>",
+        "answers": ["Eingabe", "Verarbeitung", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>n = input(\"Summe von 1 bis \")</pre>",
+        "answers": ["Eingabe", "Verarbeitung", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>zahl = input(\"Zahl: \")</pre>",
+        "answers": ["Eingabe", "Verarbeitung", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>text = input(\"Text: \")</pre>",
+        "answers": ["Eingabe", "Verarbeitung", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>with open(\"dokument\", \"r\") as datei: <br>    dokument = datei.read()</pre>",
+        "answers": ["Eingabe", "Verarbeitung", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>if password == \"magister\": <br>    sicher = \"100%\"</pre>",
+        "answers": ["Verarbeitung", "Eingabe", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>summe = zahl1 + zahl2</pre>",
+        "answers": ["Verarbeitung", "Eingabe", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>n = 0 <br>summe = 0 <br>for i in range(1,n,1):<br>    summe += i</pre>",
+        "answers": ["Verarbeitung", "Eingabe", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>summe = n*(n+1)/2</pre>",
+        "answers": ["Verarbeitung", "Eingabe", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>if zahl%2 == 0:<br>    geradeZahl = True<br>else:<br>    geradeZahl = False</pre>",
+        "answers": ["Verarbeitung", "Eingabe", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>länge = längeVon(text)</pre>",
+        "answers": ["Verarbeitung", "Eingabe", "Ausgabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>print(summe)</pre>",
+        "answers": ["Ausgabe", "Verarbeitung", "Eingabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>print(sicher)</pre>",
+        "answers": ["Ausgabe", "Verarbeitung", "Eingabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>print(geradeZahl)</pre>",
+        "answers": ["Ausgabe", "Verarbeitung", "Eingabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>daten.save(\"ausgabe\")</pre>",
+        "answers": ["Ausgabe", "Verarbeitung", "Eingabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>statistik.show()</pre>",
+        "answers": ["Ausgabe", "Verarbeitung", "Eingabe", "Kein EVA"]
+      },
+      {
+        "quizTitle": "Zu welchem Abschnitt gehört der Codeschnipsel?",
+        "task": "<pre>with open(\"ausgabe\", \"w\") as datei: <br>    datei.write(dokument)</pre>",
+        "answers": ["Ausgabe", "Verarbeitung", "Eingabe", "Kein EVA"]
       }
     ],
     "<i>kommt bald...</i>": [
