@@ -208,7 +208,10 @@ lemon`;
     "kiwi", 
     "lemon"
 ]
-`
+`           
+            if (!userCode) {
+                userCode = presetCode
+            }
             if (!(userCode.startsWith(presetCode))) {
                 userCode = presetCode
             }
