@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Training</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/pyodide/v0.22.1/full/pyodide.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/addon/hint/show-hint.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/mode/python/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.12/addon/hint/show-hint.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1em;
+            background: #fff;
+            padding: 15px;
+            border-left: 4px solid #4CAF50;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        #runPython {
+            background-color: #4CAF50; 
+            color: white; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #output {
+            background: #272822;
+            color: #f8f8f2;
+            padding: 15px;
+            font-size: 1rem;
+            border:1px solid black; 
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-top: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .CodeMirror {
+            border: 1px solid black;
+            height: 20rem;
+            font-size: .8rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-to-index {
+            position: fixed; /* Sticks it to the top-left corner */
+            top: 20px; /* Distance from the top */
+            left: 20px; /* Distance from the left */
+            text-decoration: none;
+            color: #fff;
+            background-color: #4CAF50; /* Green button style */
+            padding: 10px 20px;
+            font-size: 1em;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            z-index: 1000; /* Ensures it stays on top of other elements */
+        }
+
+        .back-to-index:hover {
+            background-color: #45a049; /* Slightly darker green on hover */
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+            transform: translateY(-2px); /* Lift effect */
+        }
+
+        .back-to-index:active {
+            background-color: #388e3c; /* Even darker green when active */
+            box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.2); /* Pressed effect */
+            transform: translateY(0); /* Reset lift effect */
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Python Training</h1>
+
+    <a href="./index.html" class="back-to-index">Back to Overview</a>
+
+    <h2>Task:</h2>
+    <p id="task"></p>
+
+    <h2>Python code:</h2>
+    <textarea id="codeInput"></textarea>
+    <br>
+    <button onclick="runPython()" id = "runPython"> Run Python Code! </button>
+    <pre id="output"></pre>
+
+    <script>
+        // Load potential data from URL params
+        const urlParams = new URLSearchParams(window.location.search);
+        const linkName = urlParams.get('name');
+        const linkNameURI = encodeURIComponent(linkName)
+        const linkTask = urlParams.get('task');
+        const linkPresetCode = urlParams.get('presetCode');
+        const linkSolution = urlParams.get('solution');
+
+        // Load task into the page
+        if (linkName) {
+            document.title = linkName;
+            document.querySelector("h1").innerText = linkName;
+        }
+        if (linkTask) {
+            document.getElementById("task").innerText = linkTask;
+        }
+
+        // Setup CodeMirror for textarea
+        const editor = CodeMirror.fromTextArea(document.getElementById('codeInput'), {
+            mode: 'python',
+            theme: 'default',
+            lineNumbers: true,
+            indentUnit: 4,
+            tabSize: 4,
+        });
+
+        editor.on('inputRead', function (cm, change) {
+            if (!cm.state.completionActive && change.origin !== 'setValue') {
+                CodeMirror.commands.autocomplete(cm, null, { completeSingle: false });
+            }
+        });
+
+        // Task Manager
+        function checkOutput(output, solution) {
+            const outputElement = document.getElementById("output");
+
+            if (output.trim() === solution.trim()) {
+                // Correct output
+                outputElement.style.backgroundColor = "#d4edda"; // Light green
+                outputElement.style.color = "#155724"; // Dark green
+                outputElement.textContent += "\n-----------------------\n✅ Correct output! Well done!";
+            } else {
+                // Incorrect output
+                outputElement.style.backgroundColor = "#f8d7da"; // Light red
+                outputElement.style.color = "#721c24"; // Dark red
+                outputElement.textContent += "\n-----------------------\n❌ Incorrect output. Expected: \n" + solution;
+            }
+        }
+
+
+        // Setup Python Coding
+        let pyodide;
+
+        async function loadPyodideAndPackages() {
+            pyodide = await loadPyodide();
+        }
+
+        // On "Run Python Code"
+        async function runPython() {
+            // set user code
+            const code = editor.getValue();
+
+            // save the code
+            saveCookie(code); 
+
+            // run the code
+            const systemCode = `
+import sys
+import io
+
+captured_output = ""
+
+class Capturing(io.StringIO):
+    def write(self, string):
+        global captured_output
+        captured_output += string  # Capture the output to the string
+
+sys.stdout = Capturing()
+
+# User's Code Starts Here
+`;
+
+            
+            const inputCode = systemCode.concat(code);
+            const outputElement = document.getElementById('output');
+            try {
+                await pyodide.runPythonAsync(inputCode);
+                const output = pyodide.globals.get("captured_output");
+                outputElement.textContent = output;
+
+                const solution = linkSolution;
+                checkOutput(output, solution);
+            } catch (err) {
+                const errorLines = err.toString().split("\n");
+                let lastFileIndex = errorLines.findLastIndex(line => line.startsWith("  File"));
+                const formattedError = errorLines[0] + "\n  ...\n" + errorLines[lastFileIndex].replace(/line (\d+)/, (_, lineNumber) => `line ${lineNumber - systemCode.split("\n").length +1}` ) + "\n" + errorLines.slice(lastFileIndex+1).join("\n");
+                outputElement.textContent = `Error: ${formattedError}`;
+                outputElement.style.backgroundColor = "#fff3cd"; // Bright yellow
+                outputElement.style.color = "#856404"; // Dark blackish-brown for contrast
+                outputElement.textContent += "\n-----------------------\n⚠️ An error occurred while running the code. Please check your input and try again.";
+            }
+        }
+
+        // Cookie Saving and Retrieving
+        function saveCookie( data) {
+            const encodedLinkName = encodeURIComponent(linkName);
+            const encodedData = encodeURIComponent(data);
+            const expires = "Tue, 19 Jan 2038 04:14:07 GMT";
+            
+            document.cookie = `${encodedLinkName}=${encodedData}; expires=${expires}; path=/`;
+        }
+
+        function getCookie() {
+            const encodedLinkName = encodeURIComponent(linkName) + "=";
+            const cookies = document.cookie.split("; ");
+            
+            for (const cookie of cookies) {
+                if (cookie.startsWith(encodedLinkName)) {
+                    return decodeURIComponent(cookie.substring(encodedLinkName.length));
+                }
+            }
+            return null; // Return null if the cookie is not found
+        }
+
+        function loadText() {
+            var userCode = getCookie();
+            presetCode = linkPresetCode;           
+            if (!userCode) {
+                userCode = presetCode
+            }
+            if (!(userCode.startsWith(presetCode))) {
+                userCode = presetCode
+            }
+
+            const presetCodeLines = presetCode.split('\n');
+            const presetCodelastLineIndex = presetCodeLines.length - 1;
+            const presetCodelastLineLength = presetCodeLines[presetCodelastLineIndex].length;
+
+            editor.setValue(userCode);
+            editor.markText(
+                { line: 0, ch: 0 }, // Start of the preset code
+                { line: presetCodelastLineIndex, ch: presetCodelastLineLength }, // End of the preset code
+                { readOnly: true }
+            );
+        }
+
+        // Main Start-Up
+        window.onload = loadPyodideAndPackages;
+        $(document).ready(loadText);
+    </script>
+</body>
+</html>

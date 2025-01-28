@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Training</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 2.5em;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-top: 20px;
+        }
+
+        h3 {
+            color: #333;
+            font-size: 1.3em;
+        }
+
+        p {
+            font-size: 1em;
+            background: #fff;
+            padding: 15px;
+            border-left: 4px solid #4CAF50;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .task-container {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: flex-start; /* Align items to the left (or use center) */
+            gap: 10px; /* Adds spacing between tasks */
+        }
+
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #4CAF50; /* Same green as your headings */
+            padding: 10px 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            margin: 10px 0; /* Add spacing */
+        }
+
+        a:hover {
+            background-color: #45a049; /* Slightly darker green on hover */
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+            transform: translateY(-2px); /* Subtle lift effect */
+        }
+
+        a:active {
+            background-color: #388e3c; /* Even darker green for active state */
+            box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.2); /* Pressed effect */
+            transform: translateY(0); /* Reset lift effect */
+        }
+    </style>
+</head>
+<body>
+    <h1>Python Training</h1>
+
+    <h2>Tasks:</h2>
+    
+    <div class="task-container">
+        <a name="Task 1: Hello World!" href="./task00.html?name=Task%201%3A%20Hello%20World!&task=Your%20very%20first%20task%20for%20any%20programming%20language%3A%0ALet%20the%20programm%20print%20out%20%22Hello%20World!%22&presetCode=&solution=Hello%20World!"></a>
+        <a name="Task 2: Fruits!" href="./task00.html?name=Task%202%3A%20Fruits!&task=Name%20every%20fruit%20in%20a%20new%20line!&presetCode=fruits%20%3D%20%5B%0A%20%20%20%20%22apple%22%2C%20%0A%20%20%20%20%22strawberry%22%2C%20%0A%20%20%20%20%22orange%22%2C%20%0A%20%20%20%20%22banana%22%2C%20%0A%20%20%20%20%22watermelon%22%2C%20%0A%20%20%20%20%22mango%22%2C%20%0A%20%20%20%20%22cherry%22%2C%20%0A%20%20%20%20%22kiwi%22%2C%20%0A%20%20%20%20%22lemon%22%0A%5D&solution=apple%0Astrawberry%0Aorange%0Abanana%0Awatermelon%0Amango%0Acherry%0Akiwi%0Alemon"></a>
+        <a name="Task 3: Numbers!" href="./task00.html?name=Task%203%3A%20Numbers!&task=Print%20out%20the%20numbers%20from%201%20to%2010%20in%20a%20new%20line!&presetCode=&solution=1%0A2%0A3%0A4%0A5%0A6%0A7%0A8%0A9%0A10"></a>
+        <a style="display: none;" name="newTask" href=""></a>
+        <a style="background-color: #ce5600;" name="Teacher: Task Creator" href="./teacher.html"></a>
+    </div>
+
+    <script>
+        // Select all <a> elements in the document
+        const links = document.querySelectorAll('a');
+    
+        // Loop through each <a> element
+        links.forEach(link => {
+            // Get the value of the custom "name" attribute
+            const nameValue = link.getAttribute('name');
+    
+            // If the "name" attribute exists, set the inner HTML of the <a> to its value
+            if (nameValue) {
+                link.innerHTML = nameValue;
+            }
+        });
+    </script>
+</body>
+</html>
